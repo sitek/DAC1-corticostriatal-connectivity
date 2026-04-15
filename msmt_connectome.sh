@@ -14,7 +14,7 @@ echo "streamline file: ${tck_fpath}"
 
 sift2_weights_fpath=${tck_dir}/sift2_weights_streamlines_alg-${alg}_nsl-${nsl}
 
-desc_base=atlas-custom_subcort-tian${tian_scale}_cort-aud-vis-carpet
+desc_base=atlas-custom_subcort-tian${tian_scale}_cort-carpet
 opt_desc="_sift2"
 out_dir=${tck_dir}/connectome_${sl_base}/${desc_base}${opt_desc}/
 mkdir -p $out_dir
