@@ -9,4 +9,4 @@ fixed_fpath='/Users/dsj3886/data_local/HCP_3T_structural/100610/MNINonLinear/T1w
 moving_fpath="/Users/dsj3886/data_local/derivatives/${atlas_base}/${atlas_base}_atlas.nii.gz"
 out_fpath="/Users/dsj3886/data_local/derivatives/${atlas_base}/${atlas_base}_atlas_space-MNI152NLin6Asym.nii.gz"
 
-antsApplyTransforms -i $moving_fpath -r $fixed_fpath -o $out_fpath -n GenericLabel -t ${xfm_fpath} -v
+/Applications/ants-2.5.1-arm/bin/antsApplyTransforms -i $moving_fpath -r $fixed_fpath -o $out_fpath -n GenericLabel -t ${xfm_fpath} -v
