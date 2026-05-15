@@ -2,7 +2,7 @@
 
 tian_scale='S2'
 
-atlas_base=atlas-custom_subcort-tian${tian_scale}_cort-aud-vis-carpet
+atlas_base=atlas-custom_subcort-tian${tian_scale}_cort-aud-vis-prefrontal
 
 xfm_fpath='/Users/dsj3886/data_local/reference/tpl-MNI152NLin2009cAsym_from-MNI152NLin6Asym_mode-image_xfm.h5'
 fixed_fpath='/Users/dsj3886/data_local/HCP_3T_structural/100610/MNINonLinear/T1w.nii.gz'

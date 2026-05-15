@@ -1,7 +1,7 @@
 #!/bin/zsh
 
-atlas_dir=/Users/dsj3886/data_local/derivatives/atlas-custom_subcort-tianS2_cort-aud-vis-carpet
-atlas_fpath=${atlas_dir}/atlas-custom_subcort-tianS2_cort-aud-vis-carpet_atlas_space-MNI152NLin6Asym.nii.gz
+atlas_dir=/Users/dsj3886/data_local/derivatives/atlas-custom_subcort-tianS2_cort-aud-vis-prefrontal
+atlas_fpath=${atlas_dir}/atlas-custom_subcort-tianS2_cort-aud-vis-prefrontal_atlas_space-MNI152NLin6Asym.nii.gz
 out_fpath=${atlas_dir}/atlas-custom_subcort-tianS2_cort-auditory_atlas_space-MNI152NLin6Asym.nii.gz
 lut_fpath=${atlas_dir}/atlas-custom_subcort-tianS2_cort-auditory_lut.tsv
 tmp=${atlas_dir}/.tmp_roi.nii.gz
