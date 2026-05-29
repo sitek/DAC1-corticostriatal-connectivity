@@ -1,0 +1,5 @@
+Contrast	Caudate_Putamen	A	B	t	df	p	p_fdr	stat_str	stat_str_fdr
+Caudate_Putamen	-	Caudate	Putamen	-25.96	75.0	p < .001	p = nan	t(75) = -25.96, p < .001	t(75) = -25.96, q = nan
+Cortex_Category	-	Auditory	Prefrontal	-15.70	75.0	p < .001	p = nan	t(75) = -15.70, p < .001	t(75) = -15.70, q = nan
+Caudate_Putamen * Cortex_Category	Caudate	Auditory	Prefrontal	-15.05	75.0	p < .001	p < .001	t(75) = -15.05, p < .001	t(75) = -15.05, q < .001
+Caudate_Putamen * Cortex_Category	Putamen	Auditory	Prefrontal	-10.73	75.0	p < .001	p < .001	t(75) = -10.73, p < .001	t(75) = -10.73, q < .001

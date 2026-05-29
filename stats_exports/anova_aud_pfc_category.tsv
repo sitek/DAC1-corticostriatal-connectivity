@@ -1,0 +1,4 @@
+source	F	df_num	df_den	p	stat_str
+Cortex_Category	246.47	1.0	75.0	p < .001	F(1, 75) = 246.47, p < .001
+Caudate_Putamen	673.69	1.0	75.0	p < .001	F(1, 75) = 673.69, p < .001
+Cortex_Category:Caudate_Putamen	13.44	1.0	75.0	p < .001	F(1, 75) = 13.44, p < .001

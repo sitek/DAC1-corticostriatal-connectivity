@@ -1,0 +1,32 @@
+Contrast	Caudate_Putamen	A	B	t	df	p	p_fdr	stat_str	stat_str_fdr
+Caudate_Putamen	-	Caudate	Putamen	-27.22	75.0	p < .001	p = nan	t(75) = -27.22, p < .001	t(75) = -27.22, q = nan
+Cortex_ROI	-	HG	PP	-7.98	75.0	p < .001	p < .001	t(75) = -7.98, p < .001	t(75) = -7.98, q < .001
+Cortex_ROI	-	HG	PT	5.34	75.0	p < .001	p < .001	t(75) = 5.34, p < .001	t(75) = 5.34, q < .001
+Cortex_ROI	-	HG	STGa	24.33	75.0	p < .001	p < .001	t(75) = 24.33, p < .001	t(75) = 24.33, q < .001
+Cortex_ROI	-	HG	STGp	19.10	75.0	p < .001	p < .001	t(75) = 19.10, p < .001	t(75) = 19.10, q < .001
+Cortex_ROI	-	PP	PT	10.76	75.0	p < .001	p < .001	t(75) = 10.76, p < .001	t(75) = 10.76, q < .001
+Cortex_ROI	-	PP	STGa	24.52	75.0	p < .001	p < .001	t(75) = 24.52, p < .001	t(75) = 24.52, q < .001
+Cortex_ROI	-	PP	STGp	21.36	75.0	p < .001	p < .001	t(75) = 21.36, p < .001	t(75) = 21.36, q < .001
+Cortex_ROI	-	PT	STGa	19.82	75.0	p < .001	p < .001	t(75) = 19.82, p < .001	t(75) = 19.82, q < .001
+Cortex_ROI	-	PT	STGp	15.83	75.0	p < .001	p < .001	t(75) = 15.83, p < .001	t(75) = 15.83, q < .001
+Cortex_ROI	-	STGa	STGp	-14.77	75.0	p < .001	p < .001	t(75) = -14.77, p < .001	t(75) = -14.77, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	HG	PP	-9.91	75.0	p < .001	p < .001	t(75) = -9.91, p < .001	t(75) = -9.91, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	HG	PT	-10.82	75.0	p < .001	p < .001	t(75) = -10.82, p < .001	t(75) = -10.82, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	HG	STGa	8.48	75.0	p < .001	p < .001	t(75) = 8.48, p < .001	t(75) = 8.48, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	HG	STGp	-2.33	75.0	p = .022	p = .022	t(75) = -2.33, p = .022	t(75) = -2.33, q = .022
+Caudate_Putamen * Cortex_ROI	Caudate	PP	PT	7.29	75.0	p < .001	p < .001	t(75) = 7.29, p < .001	t(75) = 7.29, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	PP	STGa	10.61	75.0	p < .001	p < .001	t(75) = 10.61, p < .001	t(75) = 10.61, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	PP	STGp	9.65	75.0	p < .001	p < .001	t(75) = 9.65, p < .001	t(75) = 9.65, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	PT	STGa	11.42	75.0	p < .001	p < .001	t(75) = 11.42, p < .001	t(75) = 11.42, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	PT	STGp	9.97	75.0	p < .001	p < .001	t(75) = 9.97, p < .001	t(75) = 9.97, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	STGa	STGp	-6.51	75.0	p < .001	p < .001	t(75) = -6.51, p < .001	t(75) = -6.51, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	HG	PP	-7.12	75.0	p < .001	p < .001	t(75) = -7.12, p < .001	t(75) = -7.12, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	HG	PT	5.80	75.0	p < .001	p < .001	t(75) = 5.80, p < .001	t(75) = 5.80, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	HG	STGa	24.27	75.0	p < .001	p < .001	t(75) = 24.27, p < .001	t(75) = 24.27, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	HG	STGp	19.21	75.0	p < .001	p < .001	t(75) = 19.21, p < .001	t(75) = 19.21, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	PP	PT	10.33	75.0	p < .001	p < .001	t(75) = 10.33, p < .001	t(75) = 10.33, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	PP	STGa	24.02	75.0	p < .001	p < .001	t(75) = 24.02, p < .001	t(75) = 24.02, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	PP	STGp	20.84	75.0	p < .001	p < .001	t(75) = 20.84, p < .001	t(75) = 20.84, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	PT	STGa	19.62	75.0	p < .001	p < .001	t(75) = 19.62, p < .001	t(75) = 19.62, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	PT	STGp	15.75	75.0	p < .001	p < .001	t(75) = 15.75, p < .001	t(75) = 15.75, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	STGa	STGp	-14.71	75.0	p < .001	p < .001	t(75) = -14.71, p < .001	t(75) = -14.71, q < .001

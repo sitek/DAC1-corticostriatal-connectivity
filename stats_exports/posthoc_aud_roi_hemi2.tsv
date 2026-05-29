@@ -1,0 +1,17 @@
+Contrast	Cortex_ROI	A	B	t	df	p	p_fdr	stat_str	stat_str_fdr
+Cortex_ROI	-	HG	PP	-7.98	75.0	p < .001	p < .001	t(75) = -7.98, p < .001	t(75) = -7.98, q < .001
+Cortex_ROI	-	HG	PT	5.34	75.0	p < .001	p < .001	t(75) = 5.34, p < .001	t(75) = 5.34, q < .001
+Cortex_ROI	-	HG	STGa	24.33	75.0	p < .001	p < .001	t(75) = 24.33, p < .001	t(75) = 24.33, q < .001
+Cortex_ROI	-	HG	STGp	19.10	75.0	p < .001	p < .001	t(75) = 19.10, p < .001	t(75) = 19.10, q < .001
+Cortex_ROI	-	PP	PT	10.76	75.0	p < .001	p < .001	t(75) = 10.76, p < .001	t(75) = 10.76, q < .001
+Cortex_ROI	-	PP	STGa	24.52	75.0	p < .001	p < .001	t(75) = 24.52, p < .001	t(75) = 24.52, q < .001
+Cortex_ROI	-	PP	STGp	21.36	75.0	p < .001	p < .001	t(75) = 21.36, p < .001	t(75) = 21.36, q < .001
+Cortex_ROI	-	PT	STGa	19.82	75.0	p < .001	p < .001	t(75) = 19.82, p < .001	t(75) = 19.82, q < .001
+Cortex_ROI	-	PT	STGp	15.83	75.0	p < .001	p < .001	t(75) = 15.83, p < .001	t(75) = 15.83, q < .001
+Cortex_ROI	-	STGa	STGp	-14.77	75.0	p < .001	p < .001	t(75) = -14.77, p < .001	t(75) = -14.77, q < .001
+hemisphere	-	Left	Right	-2.60	75.0	p = .011	p = nan	t(75) = -2.60, p = .011	t(75) = -2.60, q = nan
+Cortex_ROI * hemisphere	HG	Left	Right	-0.02	75.0	p = .987	p = .987	t(75) = -0.02, p = .987	t(75) = -0.02, q = .987
+Cortex_ROI * hemisphere	PP	Left	Right	4.20	75.0	p < .001	p < .001	t(75) = 4.20, p < .001	t(75) = 4.20, q < .001
+Cortex_ROI * hemisphere	PT	Left	Right	-8.00	75.0	p < .001	p < .001	t(75) = -8.00, p < .001	t(75) = -8.00, q < .001
+Cortex_ROI * hemisphere	STGa	Left	Right	0.87	75.0	p = .387	p = .484	t(75) = 0.87, p = .387	t(75) = 0.87, q = .484
+Cortex_ROI * hemisphere	STGp	Left	Right	-13.27	75.0	p < .001	p < .001	t(75) = -13.27, p < .001	t(75) = -13.27, q < .001
