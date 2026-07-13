@@ -4,7 +4,7 @@
 
 tian_scale='S2'
 
-atlas_base=atlas-custom_subcort-tian${tian_scale}_cort-aud-vis-carpet
+atlas_base=atlas-custom_subcort-tian${tian_scale}_cort-aud-vis-prefrontal
 deriv_dir=/Users/dsj3886/data_local/derivatives/
 atlas_fpath=${deriv_dir}${atlas_base}/${atlas_base}_atlas_space-MNI152NLin6Asym.nii.gz
 

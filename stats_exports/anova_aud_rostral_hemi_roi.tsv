@@ -1,0 +1,8 @@
+source	F	df_num	df_den	p	stat_str
+Rostral_Caudal	614.90	1.0	75.0	p < .001	F(1, 75) = 614.90, p < .001
+hemisphere	6.74	1.0	75.0	p = .011	F(1, 75) = 6.74, p = .011
+Cortex_ROI	331.43	4.0	300.0	p < .001	F(4, 300) = 331.43, p < .001
+Rostral_Caudal:hemisphere	1.10	1.0	75.0	p = .298	F(1, 75) = 1.10, p = .298
+Rostral_Caudal:Cortex_ROI	220.50	4.0	300.0	p < .001	F(4, 300) = 220.50, p < .001
+hemisphere:Cortex_ROI	49.97	4.0	300.0	p < .001	F(4, 300) = 49.97, p < .001
+Rostral_Caudal:hemisphere:Cortex_ROI	43.00	4.0	300.0	p < .001	F(4, 300) = 43.00, p < .001

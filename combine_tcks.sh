@@ -12,7 +12,7 @@ sl_base=streamlines_alg-${alg}_nsl-${nsl}
 tck_fpath=${tck_dir}/${sl_base}.tck
 echo "streamline file: ${tck_fpath}"
 
-lut_fpath=/Users/dsj3886/data_local/derivatives/atlas-custom_subcort-tianS2_cort-aud-vis-carpet/atlas-custom_subcort-tianS2_cort-aud-vis-carpet_lut.tsv
+lut_fpath=/Users/dsj3886/data_local/derivatives/atlas-custom_subcort-tianS2_cort-aud-vis-prefrontal/atlas-custom_subcort-tianS2_cort-aud-vis-prefrontal_lut.tsv
 
 sift2_weights_fpath=${tck_dir}/sift2_weights_streamlines_alg-${alg}_nsl-${nsl}
 

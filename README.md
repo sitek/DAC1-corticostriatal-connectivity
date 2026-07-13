@@ -16,6 +16,11 @@ Original analysis was conducted on the MGH 760 µm dataset in DSI Studio. Added 
    - Takes a function path as input
    - Loops that function call over HCP subjects
 2. Atlas generation
-  - Reference space
-  - Warp to subjects' space
+  - `atlas_construction.ipynb`, which creates a reference space, mrtrix3-compatible atlas of relevant regions
+  - `applytransforms_MNI2009cAsym-to-MNINLin6Asym.sh` — converts the new atlas from MNI2009cAsym → MNI152NLin6Asym using ANTs
+  - `applywarp_atlas_moving-mni_ref-subject.sh ` — warps from MNI152NLin6Asym → subject T1w space using FSL applywarp
+    - `loop_applywarp_atlas.sh` – helper function that loops over all subjects for atlas transformation
 3. Connectivity and statistics
+  - `msmt_connectome.sh` – includes `tck2connectome` then `connectome2tck` to generate per-edge .tck files for the given atlas file
+    - `loop_connectome.sh` – help function that loops over all subjects for connectome generation
+  - `connectivity_statistics.ipynb` – create group-mean plots and perform across-subject statistical testing

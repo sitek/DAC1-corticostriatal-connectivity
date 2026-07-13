@@ -1,0 +1,16 @@
+source	F	df_num	df_den	p	stat_str
+Caudate_Putamen	740.78	1.0	75.0	p < .001	F(1, 75) = 740.78, p < .001
+Rostral_Caudal	614.90	1.0	75.0	p < .001	F(1, 75) = 614.90, p < .001
+Cortex_ROI	331.43	4.0	300.0	p < .001	F(4, 300) = 331.43, p < .001
+hemisphere	6.74	1.0	75.0	p = .011	F(1, 75) = 6.74, p = .011
+Caudate_Putamen:Rostral_Caudal	613.53	1.0	75.0	p < .001	F(1, 75) = 613.53, p < .001
+Caudate_Putamen:Cortex_ROI	308.56	4.0	300.0	p < .001	F(4, 300) = 308.56, p < .001
+Rostral_Caudal:Cortex_ROI	220.50	4.0	300.0	p < .001	F(4, 300) = 220.50, p < .001
+Caudate_Putamen:hemisphere	6.11	1.0	75.0	p = .016	F(1, 75) = 6.11, p = .016
+Rostral_Caudal:hemisphere	1.10	1.0	75.0	p = .298	F(1, 75) = 1.10, p = .298
+Cortex_ROI:hemisphere	49.97	4.0	300.0	p < .001	F(4, 300) = 49.97, p < .001
+Caudate_Putamen:Rostral_Caudal:Cortex_ROI	219.79	4.0	300.0	p < .001	F(4, 300) = 219.79, p < .001
+Caudate_Putamen:Rostral_Caudal:hemisphere	1.41	1.0	75.0	p = .240	F(1, 75) = 1.41, p = .240
+Caudate_Putamen:Cortex_ROI:hemisphere	55.10	4.0	300.0	p < .001	F(4, 300) = 55.10, p < .001
+Rostral_Caudal:Cortex_ROI:hemisphere	43.00	4.0	300.0	p < .001	F(4, 300) = 43.00, p < .001
+Caudate_Putamen:Rostral_Caudal:Cortex_ROI:hemisphere	47.83	4.0	300.0	p < .001	F(4, 300) = 47.83, p < .001
