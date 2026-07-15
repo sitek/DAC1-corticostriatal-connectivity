@@ -1,17 +1,17 @@
 Contrast	Cortex_ROI	A	B	t	df	p	p_fdr	stat_str	stat_str_fdr
 Cortex_ROI	-	ACC	FMC	6.20	75.0	p < .001	p < .001	t(75) = 6.20, p < .001	t(75) = 6.20, q < .001
-Cortex_ROI	-	ACC	IFGo	-10.22	75.0	p < .001	p < .001	t(75) = -10.22, p < .001	t(75) = -10.22, q < .001
-Cortex_ROI	-	ACC	IFGt	-9.51	75.0	p < .001	p < .001	t(75) = -9.51, p < .001	t(75) = -9.51, q < .001
+Cortex_ROI	-	ACC	ParsOp	-10.22	75.0	p < .001	p < .001	t(75) = -10.22, p < .001	t(75) = -10.22, q < .001
+Cortex_ROI	-	ACC	ParsTri	-9.51	75.0	p < .001	p < .001	t(75) = -9.51, p < .001	t(75) = -9.51, q < .001
 Cortex_ROI	-	ACC	OFC	-23.77	75.0	p < .001	p < .001	t(75) = -23.77, p < .001	t(75) = -23.77, q < .001
-Cortex_ROI	-	FMC	IFGo	-11.69	75.0	p < .001	p < .001	t(75) = -11.69, p < .001	t(75) = -11.69, q < .001
-Cortex_ROI	-	FMC	IFGt	-11.34	75.0	p < .001	p < .001	t(75) = -11.34, p < .001	t(75) = -11.34, q < .001
+Cortex_ROI	-	FMC	ParsOp	-11.69	75.0	p < .001	p < .001	t(75) = -11.69, p < .001	t(75) = -11.69, q < .001
+Cortex_ROI	-	FMC	ParsTri	-11.34	75.0	p < .001	p < .001	t(75) = -11.34, p < .001	t(75) = -11.34, q < .001
 Cortex_ROI	-	FMC	OFC	-24.80	75.0	p < .001	p < .001	t(75) = -24.80, p < .001	t(75) = -24.80, q < .001
-Cortex_ROI	-	IFGo	IFGt	1.85	75.0	p = .068	p = .068	t(75) = 1.85, p = .068	t(75) = 1.85, q = .068
-Cortex_ROI	-	IFGo	OFC	-18.16	75.0	p < .001	p < .001	t(75) = -18.16, p < .001	t(75) = -18.16, q < .001
-Cortex_ROI	-	IFGt	OFC	-17.20	75.0	p < .001	p < .001	t(75) = -17.20, p < .001	t(75) = -17.20, q < .001
+Cortex_ROI	-	ParsOp	ParsTri	1.85	75.0	p = .068	p = .068	t(75) = 1.85, p = .068	t(75) = 1.85, q = .068
+Cortex_ROI	-	ParsOp	OFC	-18.16	75.0	p < .001	p < .001	t(75) = -18.16, p < .001	t(75) = -18.16, q < .001
+Cortex_ROI	-	ParsTri	OFC	-17.20	75.0	p < .001	p < .001	t(75) = -17.20, p < .001	t(75) = -17.20, q < .001
 Rostral_Caudal	-	Caudal	Rostral	-19.48	75.0	p < .001	p = nan	t(75) = -19.48, p < .001	t(75) = -19.48, q = nan
 Cortex_ROI * Rostral_Caudal	ACC	Caudal	Rostral	-14.10	75.0	p < .001	p < .001	t(75) = -14.10, p < .001	t(75) = -14.10, q < .001
 Cortex_ROI * Rostral_Caudal	FMC	Caudal	Rostral	-9.28	75.0	p < .001	p < .001	t(75) = -9.28, p < .001	t(75) = -9.28, q < .001
-Cortex_ROI * Rostral_Caudal	IFGo	Caudal	Rostral	12.88	75.0	p < .001	p < .001	t(75) = 12.88, p < .001	t(75) = 12.88, q < .001
-Cortex_ROI * Rostral_Caudal	IFGt	Caudal	Rostral	-11.60	75.0	p < .001	p < .001	t(75) = -11.60, p < .001	t(75) = -11.60, q < .001
+Cortex_ROI * Rostral_Caudal	ParsOp	Caudal	Rostral	12.88	75.0	p < .001	p < .001	t(75) = 12.88, p < .001	t(75) = 12.88, q < .001
+Cortex_ROI * Rostral_Caudal	ParsTri	Caudal	Rostral	-11.60	75.0	p < .001	p < .001	t(75) = -11.60, p < .001	t(75) = -11.60, q < .001
 Cortex_ROI * Rostral_Caudal	OFC	Caudal	Rostral	-21.47	75.0	p < .001	p < .001	t(75) = -21.47, p < .001	t(75) = -21.47, q < .001
