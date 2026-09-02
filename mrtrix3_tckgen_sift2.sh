@@ -20,9 +20,12 @@ tckgen -nthreads $nthreads -select 10000000 \
        $out_dir/streamlines_alg-iFOD2_nsl-10mil.tck 
 
 echo "SIFT2 streamlines  ..."
+# -out_mu writes the SIFT2 proportionality coefficient (mu); the connectome
+# must be multiplied by mu for valid cross-subject comparison.
 tcksift2 -nthreads $nthreads \
        -debug \
        --force \
+       -out_mu $out_dir/sift2_mu_streamlines_alg-iFOD2_nsl-10mil.txt \
        $out_dir/streamlines_alg-iFOD2_nsl-10mil.tck \
        $out_dir/wmfod.mif \
        $out_dir/sift2_weights_streamlines_alg-iFOD2_nsl-10mil

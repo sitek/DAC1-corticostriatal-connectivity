@@ -20,7 +20,10 @@ Usage:
 
 def fmt_p(p: float) -> str:
     """Format a p-value to 3 decimal places, APA style (no leading zero).
-    Values below .001 reported as 'p < .001'."""
+    Values below .001 reported as 'p < .001'. NaN -> 'n/a' (e.g. pingouin
+    leaves p-corr NaN on the main-effect rows of a pairwise_tests table)."""
+    if p != p:  # NaN
+        return "n/a"
     if p < 0.001:
         return "p < .001"
     return f"p = {p:.3f}".replace("0.", ".")
@@ -84,6 +87,8 @@ def stat_str_fdr(stat_type, *args):
     """
     *stat_args, p_fdr = args
     stat_part = stat_str(stat_type, *stat_args).rsplit(',', 1)[0]
+    if p_fdr != p_fdr:  # NaN -> no FDR value to report (e.g. main-effect row)
+        return stat_part
     if p_fdr < 0.001:
         q_str = "q < .001"
     else:

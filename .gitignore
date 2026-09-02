@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# pipeline run artifacts
+logs/
+*.log
+loop.out
+nohup.out

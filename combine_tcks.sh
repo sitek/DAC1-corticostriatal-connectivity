@@ -17,7 +17,9 @@ lut_fpath=/Users/dsj3886/data_local/derivatives/atlas-custom_subcort-tianS2_cort
 sift2_weights_fpath=${tck_dir}/sift2_weights_streamlines_alg-${alg}_nsl-${nsl}
 
 desc_base=atlas-custom_subcort-tian${tian_scale}_cort-carpet
-opt_desc="_sift2"
+# Match msmt_connectome.sh. Edge .tck files are identical regardless of
+# connectome scaling, but the output folder name must line up.
+opt_desc="_sift2-noscaling"
 out_dir=${tck_dir}/connectome_${sl_base}/${desc_base}${opt_desc}/
 mkdir -p $out_dir
 echo "output directory: ${out_dir}"

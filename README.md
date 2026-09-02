@@ -10,8 +10,9 @@ Original analysis was conducted on the MGH 760 µm dataset in DSI Studio. Added 
    - `dwi2fod`
   - `mrtrix3_tckgen_sift2.sh`, which includes:
    - `tckgen`
-   - `tcksift2`
+   - `tcksift2` – with `-out_mu` (the SIFT2 proportionality coefficient µ, needed for cross-subject connectome scaling)
    - `tckedit` – which creates a visualization-friendly reduced-count streamline file
+  - `sift2_mu.sh` – re-runs only `tcksift2 -out_mu` on existing streamlines (for subjects whose SIFT2 predates the `-out_mu` addition; does **not** re-run `tckgen`)
   - Helper function: `loop_mrtrix3.sh`
    - Takes a function path as input
    - Loops that function call over HCP subjects
@@ -22,5 +23,8 @@ Original analysis was conducted on the MGH 760 µm dataset in DSI Studio. Added 
     - `loop_applywarp_atlas.sh` – helper function that loops over all subjects for atlas transformation
 3. Connectivity and statistics
   - `msmt_connectome.sh` – includes `tck2connectome` then `connectome2tck` to generate per-edge .tck files for the given atlas file
+    - Outputs go to `..._cort-carpet_sift2-noscaling/`: SIFT2-weighted edge sums **without** `-scale_invnodevol`. Node-volume normalisation (striatal volume only) and the µ scaling are applied in `connectivity_statistics.ipynb`, where `-scale_invnodevol`'s `2/(v_i+v_j)` form could not be undone for one node.
     - `loop_connectome.sh` – help function that loops over all subjects for connectome generation
+  - `combine_tcks.sh` – merges per-edge striatum–auditory .tck files into per-striatal-ROI bundles for visualization
   - `connectivity_statistics.ipynb` – create group-mean plots and perform across-subject statistical testing
+  - `mean_connectivity.ipynb` – **archival** (earlier invnodevol-based analysis; superseded by `connectivity_statistics.ipynb`)
