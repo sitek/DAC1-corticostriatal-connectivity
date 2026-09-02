@@ -1,21 +1,18 @@
-import os
-
 """
 Formatting helpers for consistent APA-style statistical reporting.
 
 Ported from SoundBrainLab/fMRI_auditory-category-learning/stats_fmt.py
-with minor adaptations for hcp7t_mrtrix3_TianS2 (pingouin column-name
-variants, default out_dir).
+with adaptations for hcp7t_mrtrix3_TianS2: export_anova takes statsmodels
+AnovaRM *or* pingouin rm_anova; export_posthoc takes parametric *or*
+Wilcoxon pg.pairwise_tests output.
 
-Usage:
-    from stats_fmt import fmt_t, fmt_F, fmt_p, fmt_r, stat_str
-
-    print(fmt_t(11, 2.345))                    # "t(11) = 2.35"
-    print(fmt_F(2, 22, 4.123))                 # "F(2, 22) = 4.12"
-    print(fmt_p(0.0003))                       # "p < .001"
-    print(fmt_r(0.7823))                       # "r = .78"
-    print(stat_str('t', 11, 2.345, 0.038))    # "t(11) = 2.35, p = .038"
+    print(fmt_F(2, 22, 4.123))              # "F(2, 22) = 4.12"
+    print(fmt_p(0.0003))                    # "p < .001"
+    print(stat_str('t', 11, 2.345, 0.038))  # "t(11) = 2.35, p = .038"
+    print(stat_str('W', 82.0, 0.03))        # "W = 82.0, p = .030"
 """
+
+import os
 
 
 def fmt_p(p: float) -> str:
@@ -34,9 +31,22 @@ def fmt_t(df, t):
     return f"t({df}) = {t:.2f}"
 
 
+def _fmt_df(x):
+    """Whole numbers as ints, Greenhouse-Geisser-corrected df as 2 decimals."""
+    x = float(x)
+    return str(int(x)) if x.is_integer() else f"{x:.2f}"
+
+
 def fmt_F(df1, df2, F):
     """Format an F-statistic with numerator and denominator degrees of freedom."""
-    return f"F({df1}, {df2}) = {F:.2f}"
+    return f"F({_fmt_df(df1)}, {_fmt_df(df2)}) = {F:.2f}"
+
+
+def fmt_eta2(x: float) -> str:
+    """Partial eta-squared, 2 decimals, APA style (no leading zero)."""
+    if x != x:  # NaN
+        return ""
+    return f"ηp² = {x:.2f}".replace("= 0.", "= .").replace("= -0.", "= -.")
 
 
 def fmt_r(r: float) -> str:
@@ -47,6 +57,11 @@ def fmt_r(r: float) -> str:
 def fmt_z(z: float) -> str:
     """Format a z-statistic to 2 decimal places."""
     return f"z = {z:.2f}"
+
+
+def fmt_W(W: float) -> str:
+    """Format a Wilcoxon signed-rank statistic."""
+    return f"W = {W:.1f}"
 
 
 def stat_str(stat_type: str, *args) -> str:
@@ -71,19 +86,22 @@ def stat_str(stat_type: str, *args) -> str:
     elif stat_type == 'z':
         z_val, p_val = args
         return f"{fmt_z(z_val)}, {fmt_p(p_val)}"
+    elif stat_type == 'W':
+        W_val, p_val = args
+        return f"{fmt_W(W_val)}, {fmt_p(p_val)}"
     else:
-        raise ValueError(f"Unknown stat_type '{stat_type}'. Use 't', 'F', 'r', or 'z'.")
+        raise ValueError(f"Unknown stat_type '{stat_type}'. Use 't', 'F', 'r', 'z', or 'W'.")
 
 
 def stat_str_fdr(stat_type, *args):
     """
-    Like stat_str but appends a FDR-corrected p-value.
-    Last argument is always p_fdr.
+    Like stat_str but replaces the uncorrected p with an FDR-corrected q.
+    Last argument is always p_fdr (NaN -> just the statistic, no q).
 
     Examples
     --------
-    stat_str_fdr('t', 11, 2.345, 0.038, 0.045)   # "t(11) = 2.35, p = .038, p_FDR = .045"
-    stat_str_fdr('F', 2, 22, 4.12, 0.031, 0.048) # "F(2, 22) = 4.12, p = .031, p_FDR = .048"
+    stat_str_fdr('t', 11, 2.345, 0.038, 0.045)   # "t(11) = 2.35, q = .045"
+    stat_str_fdr('W', 82.0, 0.030, 0.21)         # "W = 82.0, q = .210"
     """
     *stat_args, p_fdr = args
     stat_part = stat_str(stat_type, *stat_args).rsplit(',', 1)[0]
@@ -98,73 +116,119 @@ def stat_str_fdr(stat_type, *args):
 
 def export_anova(aov, label, out_dir='.', filename=None):
     """
-    Convert an AnovaRM result to a clean DataFrame and save as TSV.
+    Convert a repeated-measures ANOVA result to a tidy DataFrame and save as TSV.
 
-    Parameters
-    ----------
-    aov      : AnovaRM fitted result (has .anova_table attribute)
-    label    : str, used in filename if filename not provided
-    out_dir  : str, directory to save TSV (default '.')
-    filename : str, optional override for output filename
+    Accepts either:
+      - a statsmodels AnovaRM fitted result (has .anova_table); or
+      - a pingouin rm_anova DataFrame, fitted with detailed=True and
+        effsize='np2' (correction defaults to 'auto', which applies
+        Greenhouse-Geisser to factors with >2 levels).
+
+    Output columns: source, F, df_num, df_den, p, p_gg, np2, eps, stat_str
+    p_gg / np2 / eps are blank for statsmodels input. When a factor's
+    sphericity epsilon < 1, stat_str reports the GG-corrected p and
+    GG-corrected (fractional) degrees of freedom.
     """
-    table = aov.anova_table.copy()
-    table.index.name = 'source'
-    table = table.reset_index()
-    table.columns = ['source', 'F', 'df_num', 'df_den', 'p']
-    table['stat_str'] = table.apply(
-        lambda r: stat_str('F', int(r['df_num']), int(r['df_den']), r['F'], r['p']), axis=1)
-    table = table[['source', 'F', 'df_num', 'df_den', 'p', 'stat_str']]
-    table['F'] = table['F'].map('{:.2f}'.format)
-    table['p'] = table['p'].map(lambda x: fmt_p(float(x)) if x is not None else x)
+    from math import isnan
+
+    if hasattr(aov, 'anova_table'):
+        t = aov.anova_table.copy()
+        t.index.name = 'source'
+        t = t.reset_index()
+        t.columns = ['source', 'F', 'df_num', 'df_den', 'p']
+        t['p_gg'] = float('nan')
+        t['np2'] = float('nan')
+        t['eps'] = float('nan')
+    else:
+        d = aov.copy()
+        d = d.rename(columns={'Source': 'source', 'p-unc': 'p_unc',
+                              'p-GG-corr': 'p_GG_corr'})
+        if 'ddof1' not in d.columns and 'DF' in d.columns:
+            # 1-way rm_anova: one 'DF' column and a trailing 'Error' row
+            err = d[d['source'] == 'Error']
+            df_den = float(err['DF'].iloc[0]) if len(err) else float('nan')
+            d = d[d['source'] != 'Error'].copy()
+            d['df_num'] = d['DF'].astype(float)
+            d['df_den'] = df_den
+        else:
+            d = d.rename(columns={'ddof1': 'df_num', 'ddof2': 'df_den'})
+        for c in ('p_GG_corr', 'np2', 'eps'):
+            if c not in d.columns:
+                d[c] = float('nan')
+        t = d[['source', 'F', 'df_num', 'df_den', 'p_unc',
+               'p_GG_corr', 'np2', 'eps']].rename(
+            columns={'p_unc': 'p', 'p_GG_corr': 'p_gg'})
+
+    def _mk(r):
+        eps, p_gg, np2 = float(r['eps']), float(r['p_gg']), float(r['np2'])
+        use_gg = not isnan(eps) and eps < 0.999 and not isnan(p_gg)
+        df1, df2 = float(r['df_num']), float(r['df_den'])
+        if use_gg:
+            df1, df2 = df1 * eps, df2 * eps
+        s = f"{fmt_F(df1, df2, float(r['F']))}, {fmt_p(p_gg if use_gg else float(r['p']))}"
+        if use_gg:
+            s += f" (GG ε={eps:.2f})"
+        if not isnan(np2):
+            s += f", {fmt_eta2(np2)}"
+        return s
+
+    blank_nan = lambda fmt: (lambda x: '' if isnan(float(x)) else fmt(float(x)))
+    t['stat_str'] = t.apply(_mk, axis=1)
+    t['F'] = t['F'].map(lambda x: f'{float(x):.2f}')
+    t['p'] = t['p'].map(lambda x: fmt_p(float(x)))
+    t['p_gg'] = t['p_gg'].map(blank_nan(fmt_p))
+    t['np2'] = t['np2'].map(blank_nan(lambda x: f'{x:.3f}'))
+    t['eps'] = t['eps'].map(blank_nan(lambda x: f'{x:.3f}'))
+    t = t[['source', 'F', 'df_num', 'df_den', 'p', 'p_gg', 'np2', 'eps', 'stat_str']]
 
     os.makedirs(out_dir, exist_ok=True)
     fname = filename or f'anova_{label}.tsv'
-    table.to_csv(os.path.join(out_dir, fname), sep='\t', index=False)
-    return table
+    t.to_csv(os.path.join(out_dir, fname), sep='\t', index=False)
+    return t
 
 
 def export_posthoc(pg_df, label, out_dir='.', filename=None):
     """
     Convert a pg.pairwise_tests result to a clean DataFrame and save as TSV.
-    Handles both pingouin column conventions: 'p-unc'/'p-corr' and 'p_unc'/'p_corr'.
 
-    Parameters
-    ----------
-    pg_df    : pd.DataFrame, output of pg.pairwise_tests()
-    label    : str, used in filename if filename not provided
-    out_dir  : str, directory to save TSV (default '.')
-    filename : str, optional override for output filename
+    Handles both the parametric (paired t: 'T' / 'dof' columns) and the
+    non-parametric (Wilcoxon signed-rank: 'W-val' / 'W_val') output of
+    pg.pairwise_tests, and both pingouin column conventions ('p-unc'/'p-corr'
+    and 'p_unc'/'p_corr').
     """
-    from numpy import nan
-
-    # Normalise column names: pingouin uses hyphens in newer versions,
-    # underscores in some older ones.
     df = pg_df.rename(columns={'p-unc': 'p_unc', 'p-corr': 'p_corr',
-                                'p-adjust': 'p_corr'})
+                               'p-adjust': 'p_corr', 'W-val': 'W_val'})
 
     grouping_cols = [c for c in ['Contrast', 'Cortex_ROI', 'Cortex_Category',
-                                  'Caudate_Putamen', 'Rostral_Caudal',
-                                  'hemisphere', 'Striatum_ROI', 'A', 'B']
+                                 'Caudate_Putamen', 'Rostral_Caudal',
+                                 'hemisphere', 'Striatum_ROI', 'A', 'B']
                      if c in df.columns]
-
     has_fdr = 'p_corr' in df.columns
+    nonparam = 'W_val' in df.columns and 'T' not in df.columns
+
+    kind = 'W' if nonparam else 't'
+    stat_in, stat_out = ('W_val', 'W') if nonparam else ('T', 't')
+    df_cols = [] if nonparam else ['dof']
+    stat_fmt = (lambda x: f'{float(x):.1f}') if nonparam else '{:.2f}'.format
 
     try:
-        cols = grouping_cols + ['T', 'dof', 'p_unc'] + (['p_corr'] if has_fdr else [])
-        table = df[cols].copy().rename(columns={'T': 't', 'dof': 'df',
-                                                 'p_unc': 'p', 'p_corr': 'p_fdr'})
-        table['stat_str'] = table.apply(
-            lambda r: stat_str('t', int(r['df']), r['t'], r['p']), axis=1)
-        if has_fdr:
-            table['stat_str_fdr'] = table.apply(
-                lambda r: stat_str_fdr('t', int(r['df']), r['t'], r['p'], r['p_fdr']), axis=1)
-        else:
-            table['stat_str_fdr'] = nan
+        cols = grouping_cols + [stat_in] + df_cols + ['p_unc'] + \
+               (['p_corr'] if has_fdr else [])
+        table = df[cols].rename(columns={stat_in: stat_out, 'dof': 'df',
+                                         'p_unc': 'p', 'p_corr': 'p_fdr'})
     except KeyError as e:
         raise KeyError(f"export_posthoc: missing column {e}. "
                        f"Available: {list(df.columns)}") from e
 
-    table['t'] = table['t'].map('{:.2f}'.format)
+    def _args(r):
+        return (kind, float(r['W']), r['p']) if nonparam \
+            else (kind, int(r['df']), r['t'], r['p'])
+
+    table['stat_str'] = table.apply(lambda r: stat_str(*_args(r)), axis=1)
+    table['stat_str_fdr'] = table.apply(
+        lambda r: stat_str_fdr(*_args(r), r['p_fdr']), axis=1) if has_fdr else ''
+
+    table[stat_out] = table[stat_out].map(stat_fmt)
     table['p'] = table['p'].map(lambda x: fmt_p(float(x)) if x is not None else x)
     if 'p_fdr' in table.columns:
         table['p_fdr'] = table['p_fdr'].map(lambda x: fmt_p(float(x)) if x is not None else x)
@@ -200,20 +264,3 @@ def export_ttests(records, label, out_dir='.', filename=None):
     fname = filename or f'ttests_{label}.tsv'
     table.to_csv(os.path.join(out_dir, fname), sep='\t', index=False)
     return table
-
-
-def fmt_pingouin_anova(aov_df, term_col: str = 'Source') -> dict:
-    """
-    Convert a pingouin ANOVA DataFrame to a dict of formatted strings keyed by term name.
-    Each value is ready to paste into manuscript text.
-    """
-    out = {}
-    for _, row in aov_df.iterrows():
-        name = row[term_col]
-        df1 = int(row.get('ddof1', row.get('DF', '?')))
-        df2_key = 'ddof2' if 'ddof2' in row else ('DF2' if 'DF2' in row else None)
-        df2 = int(row[df2_key]) if df2_key else '?'
-        F = row.get('F', float('nan'))
-        p = row.get('p-unc', row.get('p-GG-corr', float('nan')))
-        out[name] = stat_str('F', df1, df2, F, p)
-    return out
