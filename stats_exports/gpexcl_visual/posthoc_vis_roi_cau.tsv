@@ -1,0 +1,30 @@
+Contrast	Cortex_ROI	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Cortex_ROI	-	IntraCalc	LOCinf	2266.0	p = .692	p = .692	W = 2266.0, p = .692	W = 2266.0, q = .692
+Cortex_ROI	-	IntraCalc	LOCsup	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	IntraCalc	OccFus	36.0	p < .001	p < .001	W = 36.0, p < .001	W = 36.0, q < .001
+Cortex_ROI	-	IntraCalc	OccPole	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	IntraCalc	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	IntraCalc	TempOccFus	87.0	p < .001	p < .001	W = 87.0, p < .001	W = 87.0, q < .001
+Cortex_ROI	-	LOCinf	LOCsup	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	LOCinf	OccFus	7.0	p < .001	p < .001	W = 7.0, p < .001	W = 7.0, q < .001
+Cortex_ROI	-	LOCinf	OccPole	2.0	p < .001	p < .001	W = 2.0, p < .001	W = 2.0, q < .001
+Cortex_ROI	-	LOCinf	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	LOCinf	TempOccFus	39.0	p < .001	p < .001	W = 39.0, p < .001	W = 39.0, q < .001
+Cortex_ROI	-	LOCsup	OccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	LOCsup	OccPole	3.0	p < .001	p < .001	W = 3.0, p < .001	W = 3.0, q < .001
+Cortex_ROI	-	LOCsup	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	LOCsup	TempOccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	OccFus	OccPole	293.0	p < .001	p < .001	W = 293.0, p < .001	W = 293.0, q < .001
+Cortex_ROI	-	OccFus	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	OccFus	TempOccFus	2.0	p < .001	p < .001	W = 2.0, p < .001	W = 2.0, q < .001
+Cortex_ROI	-	OccPole	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	OccPole	TempOccFus	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Cortex_ROI	-	SupraCalc	TempOccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen	-	Caudate	Putamen	0.0	p < .001	n/a	W = 0.0, p < .001	W = 0.0
+Cortex_ROI * Caudate_Putamen	IntraCalc	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI * Caudate_Putamen	LOCinf	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI * Caudate_Putamen	LOCsup	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI * Caudate_Putamen	OccFus	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI * Caudate_Putamen	OccPole	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI * Caudate_Putamen	SupraCalc	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI * Caudate_Putamen	TempOccFus	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001

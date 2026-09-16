@@ -1,0 +1,8 @@
+source	F	df_num	df_den	p	p_gg	np2	eps	stat_str
+Caudate_Putamen	1148.51	1.0	96.0	p < .001				F(1, 96) = 1148.51, p < .001
+Cortex_ROI	568.60	4.0	384.0	p < .001				F(4, 384) = 568.60, p < .001
+hemisphere	7.68	1.0	96.0	p = .007				F(1, 96) = 7.68, p = .007
+Caudate_Putamen:Cortex_ROI	500.81	4.0	384.0	p < .001				F(4, 384) = 500.81, p < .001
+Caudate_Putamen:hemisphere	5.85	1.0	96.0	p = .017				F(1, 96) = 5.85, p = .017
+Cortex_ROI:hemisphere	53.05	4.0	384.0	p < .001				F(4, 384) = 53.05, p < .001
+Caudate_Putamen:Cortex_ROI:hemisphere	69.90	4.0	384.0	p < .001				F(4, 384) = 69.90, p < .001

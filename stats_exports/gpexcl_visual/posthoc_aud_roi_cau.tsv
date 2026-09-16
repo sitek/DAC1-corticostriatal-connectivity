@@ -1,0 +1,17 @@
+Contrast	Cortex_ROI	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Cortex_ROI	-	HG	PP	608.0	p < .001	p < .001	W = 608.0, p < .001	W = 608.0, q < .001
+Cortex_ROI	-	HG	PT	35.0	p < .001	p < .001	W = 35.0, p < .001	W = 35.0, q < .001
+Cortex_ROI	-	HG	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	HG	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	PP	PT	2.0	p < .001	p < .001	W = 2.0, p < .001	W = 2.0, q < .001
+Cortex_ROI	-	PP	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	PP	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	PT	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	PT	STGp	4.0	p < .001	p < .001	W = 4.0, p < .001	W = 4.0, q < .001
+Cortex_ROI	-	STGa	STGp	9.0	p < .001	p < .001	W = 9.0, p < .001	W = 9.0, q < .001
+Caudate_Putamen	-	Caudate	Putamen	0.0	p < .001	n/a	W = 0.0, p < .001	W = 0.0
+Cortex_ROI * Caudate_Putamen	HG	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI * Caudate_Putamen	PP	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI * Caudate_Putamen	PT	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI * Caudate_Putamen	STGa	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI * Caudate_Putamen	STGp	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001

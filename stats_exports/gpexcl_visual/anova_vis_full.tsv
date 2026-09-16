@@ -1,0 +1,16 @@
+source	F	df_num	df_den	p	p_gg	np2	eps	stat_str
+Caudate_Putamen	2553.99	1.0	96.0	p < .001				F(1, 96) = 2553.99, p < .001
+Rostral_Caudal	1475.64	1.0	96.0	p < .001				F(1, 96) = 1475.64, p < .001
+Cortex_ROI	979.36	6.0	576.0	p < .001				F(6, 576) = 979.36, p < .001
+hemisphere	26.31	1.0	96.0	p < .001				F(1, 96) = 26.31, p < .001
+Caudate_Putamen:Rostral_Caudal	1225.36	1.0	96.0	p < .001				F(1, 96) = 1225.36, p < .001
+Caudate_Putamen:Cortex_ROI	784.89	6.0	576.0	p < .001				F(6, 576) = 784.89, p < .001
+Rostral_Caudal:Cortex_ROI	893.25	6.0	576.0	p < .001				F(6, 576) = 893.25, p < .001
+Caudate_Putamen:hemisphere	44.97	1.0	96.0	p < .001				F(1, 96) = 44.97, p < .001
+Rostral_Caudal:hemisphere	0.38	1.0	96.0	p = .538				F(1, 96) = 0.38, p = .538
+Cortex_ROI:hemisphere	17.47	6.0	576.0	p < .001				F(6, 576) = 17.47, p < .001
+Caudate_Putamen:Rostral_Caudal:Cortex_ROI	712.51	6.0	576.0	p < .001				F(6, 576) = 712.51, p < .001
+Caudate_Putamen:Rostral_Caudal:hemisphere	2.04	1.0	96.0	p = .157				F(1, 96) = 2.04, p = .157
+Caudate_Putamen:Cortex_ROI:hemisphere	24.95	6.0	576.0	p < .001				F(6, 576) = 24.95, p < .001
+Rostral_Caudal:Cortex_ROI:hemisphere	12.50	6.0	576.0	p < .001				F(6, 576) = 12.50, p < .001
+Caudate_Putamen:Rostral_Caudal:Cortex_ROI:hemisphere	17.46	6.0	576.0	p < .001				F(6, 576) = 17.46, p < .001
