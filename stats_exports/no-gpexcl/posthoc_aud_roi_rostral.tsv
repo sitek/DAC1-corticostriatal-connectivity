@@ -1,0 +1,17 @@
+Contrast	Cortex_ROI	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Cortex_ROI	-	HG	PP	599.0	p < .001	p < .001	W = 599.0, p < .001	W = 599.0, q < .001
+Cortex_ROI	-	HG	PT	44.0	p < .001	p < .001	W = 44.0, p < .001	W = 44.0, q < .001
+Cortex_ROI	-	HG	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	HG	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	PP	PT	5.0	p < .001	p < .001	W = 5.0, p < .001	W = 5.0, q < .001
+Cortex_ROI	-	PP	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	PP	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	PT	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	PT	STGp	4.0	p < .001	p < .001	W = 4.0, p < .001	W = 4.0, q < .001
+Cortex_ROI	-	STGa	STGp	18.0	p < .001	p < .001	W = 18.0, p < .001	W = 18.0, q < .001
+Rostral_Caudal	-	Caudal	Rostral	0.0	p < .001	n/a	W = 0.0, p < .001	W = 0.0
+Cortex_ROI * Rostral_Caudal	HG	Caudal	Rostral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI * Rostral_Caudal	PP	Caudal	Rostral	5.0	p < .001	p < .001	W = 5.0, p < .001	W = 5.0, q < .001
+Cortex_ROI * Rostral_Caudal	PT	Caudal	Rostral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI * Rostral_Caudal	STGa	Caudal	Rostral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI * Rostral_Caudal	STGp	Caudal	Rostral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001

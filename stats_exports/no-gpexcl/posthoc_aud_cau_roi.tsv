@@ -1,0 +1,32 @@
+Contrast	Caudate_Putamen	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Caudate_Putamen	-	Caudate	Putamen	0.0	p < .001	n/a	W = 0.0, p < .001	W = 0.0
+Cortex_ROI	-	HG	PP	599.0	p < .001	p < .001	W = 599.0, p < .001	W = 599.0, q < .001
+Cortex_ROI	-	HG	PT	44.0	p < .001	p < .001	W = 44.0, p < .001	W = 44.0, q < .001
+Cortex_ROI	-	HG	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	HG	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	PP	PT	5.0	p < .001	p < .001	W = 5.0, p < .001	W = 5.0, q < .001
+Cortex_ROI	-	PP	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	PP	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	PT	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	PT	STGp	4.0	p < .001	p < .001	W = 4.0, p < .001	W = 4.0, q < .001
+Cortex_ROI	-	STGa	STGp	18.0	p < .001	p < .001	W = 18.0, p < .001	W = 18.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	HG	PP	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	HG	PT	34.0	p < .001	p < .001	W = 34.0, p < .001	W = 34.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	HG	STGa	94.0	p < .001	p < .001	W = 94.0, p < .001	W = 94.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	HG	STGp	2395.0	p = .656	p = .656	W = 2395.0, p = .656	W = 2395.0, q = .656
+Caudate_Putamen * Cortex_ROI	Caudate	PP	PT	316.0	p < .001	p < .001	W = 316.0, p < .001	W = 316.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	PP	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	PP	STGp	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	PT	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	PT	STGp	33.0	p < .001	p < .001	W = 33.0, p < .001	W = 33.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	STGa	STGp	28.0	p < .001	p < .001	W = 28.0, p < .001	W = 28.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	HG	PP	919.0	p < .001	p < .001	W = 919.0, p < .001	W = 919.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	HG	PT	25.0	p < .001	p < .001	W = 25.0, p < .001	W = 25.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	HG	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	HG	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	PP	PT	7.0	p < .001	p < .001	W = 7.0, p < .001	W = 7.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	PP	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	PP	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	PT	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	PT	STGp	7.0	p < .001	p < .001	W = 7.0, p < .001	W = 7.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	STGa	STGp	27.0	p < .001	p < .001	W = 27.0, p < .001	W = 27.0, q < .001

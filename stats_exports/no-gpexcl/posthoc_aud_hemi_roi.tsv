@@ -1,0 +1,32 @@
+Contrast	hemisphere	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+hemisphere	-	Left	Right	1785.0	p = .011	n/a	W = 1785.0, p = .011	W = 1785.0
+Cortex_ROI	-	HG	PP	599.0	p < .001	p < .001	W = 599.0, p < .001	W = 599.0, q < .001
+Cortex_ROI	-	HG	PT	44.0	p < .001	p < .001	W = 44.0, p < .001	W = 44.0, q < .001
+Cortex_ROI	-	HG	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	HG	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	PP	PT	5.0	p < .001	p < .001	W = 5.0, p < .001	W = 5.0, q < .001
+Cortex_ROI	-	PP	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	PP	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	PT	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	PT	STGp	4.0	p < .001	p < .001	W = 4.0, p < .001	W = 4.0, q < .001
+Cortex_ROI	-	STGa	STGp	18.0	p < .001	p < .001	W = 18.0, p < .001	W = 18.0, q < .001
+hemisphere * Cortex_ROI	Left	HG	PP	380.0	p < .001	p < .001	W = 380.0, p < .001	W = 380.0, q < .001
+hemisphere * Cortex_ROI	Left	HG	PT	47.0	p < .001	p < .001	W = 47.0, p < .001	W = 47.0, q < .001
+hemisphere * Cortex_ROI	Left	HG	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	HG	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	PP	PT	2.0	p < .001	p < .001	W = 2.0, p < .001	W = 2.0, q < .001
+hemisphere * Cortex_ROI	Left	PP	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	PP	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	PT	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	PT	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	STGa	STGp	2331.0	p = .506	p = .506	W = 2331.0, p = .506	W = 2331.0, q = .506
+hemisphere * Cortex_ROI	Right	HG	PP	1797.0	p = .012	p = .013	W = 1797.0, p = .012	W = 1797.0, q = .013
+hemisphere * Cortex_ROI	Right	HG	PT	602.0	p < .001	p < .001	W = 602.0, p < .001	W = 602.0, q < .001
+hemisphere * Cortex_ROI	Right	HG	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	HG	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	PP	PT	639.0	p < .001	p < .001	W = 639.0, p < .001	W = 639.0, q < .001
+hemisphere * Cortex_ROI	Right	PP	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	PP	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	PT	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	PT	STGp	62.0	p < .001	p < .001	W = 62.0, p < .001	W = 62.0, q < .001
+hemisphere * Cortex_ROI	Right	STGa	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001

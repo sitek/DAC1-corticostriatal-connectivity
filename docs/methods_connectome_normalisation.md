@@ -17,6 +17,26 @@ then estimated with SIFT2 (`tcksift2`), which also yields the proportionality
 coefficient µ relating the streamline density to the fibre orientation
 distribution amplitude.
 
+### Globus pallidus exclusion (primary analysis)
+
+To ensure the measured streamlines reflect direct corticostriatal projections
+rather than pathways passing through or relayed via the globus pallidus,
+streamlines intersecting a combined globus pallidus mask were excluded during
+tractography generation (`tckgen -exclude`). The mask combined the anterior
+and posterior globus pallidus subdivisions of the Tian S2 subcortical atlas,
+bilaterally, in each participant's native space (same registration pipeline
+as the parcellation below). This GP-excluded pass is the primary analysis; an
+otherwise-identical pass without the exclusion was also generated and is
+reported as a comparison baseline.
+
+Of the 100 HCP 7T participants, 97 were included in the primary analysis;
+three were excluded because their HCP 3T structural data (needed to warp the
+exclusion mask into native space) is no longer available on ConnectomeDB —
+not a data-quality exclusion. A small number of participants may be further
+excluded on a per-analysis basis if a striatal subdivision has zero volume
+after warping (flagged automatically at load time); this is independent of
+the GP-exclusion criterion.
+
 ## Atlas
 
 A custom parcellation (54 regions) combined the Tian S2 subcortical atlas —

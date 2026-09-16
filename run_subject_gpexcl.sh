@@ -1,30 +1,25 @@
 #!/bin/zsh
 
-# Full per-subject pipeline from FOD to connectome, in one pass, deleting the
-# 10-million-streamline tractogram as soon as the connectome has consumed it
-# (the full .tck is ~12 GB; 100 of them will not fit on this disk).
+# v2 of run_subject.sh: same per-subject pipeline, but tckgen excludes any
+# streamline that passes through the combined globus pallidus mask
+# (atlas-custom_subcort-tianS2_GP-combined, both hemispheres, aGP+pGP).
 #
-# Per subject it runs:
-#   tckgen        -> streamlines_alg-iFOD2_nsl-10mil.tck        (temporary, ~12 GB)
-#   tcksift2      -> sift2_weights_...  + sift2_mu_....txt
-#   tckedit       -> streamlines_..._reduced-100k.tck           (kept, for viz)
-#   tck2connectome-> ..._connectome_sift2-noscaling.csv         (raw SIFT2 sums)
-#   connectome2tck-> per-edge .tck files
-#   rm            -> the full .tck
+# Runs CONCURRENTLY with the baseline (no-exclusion) run_subject.sh pass, so
+# every output path is kept distinct from the baseline's (own tck/weights/mu/
+# connectome dir, via the _gpexcl-suffixed sl_base) -- no shared files, no
+# collisions, safe to run both loops on this machine at the same time.
 #
-# Requires: wmfod.mif (from mrtrix3_msmt.sh) and the subject-space atlas
-# (from applywarp_atlas_moving-mni_ref-subject.sh).
+# Requires: wmfod.mif, the 54-region subject atlas, AND the GP mask warped to
+# this subject (applywarp_GPmask_moving-mni_ref-subject.sh). Subjects missing
+# any of these are skipped, not failed -- re-run the loop later to pick them up.
 #
-# Idempotent: if the connectome CSV already exists the subject is skipped, so
-# the loop can be re-run after an interruption.
-#
-# Usage (one subject):  zsh run_subject.sh <sub_id>
-# Loop (throttled):     zsh loop_mrtrix3.sh run_subject.sh
+# Usage (one subject):  zsh run_subject_gpexcl.sh <sub_id>
+# Loop (throttled):     zsh loop_mrtrix3.sh run_subject_gpexcl.sh <max_jobs>
 
 set -u
 
 sub_id=$1
-echo "==== $sub_id ===="
+echo "==== $sub_id (GP-excluded) ===="
 
 raw_dir=/Users/dsj3886/data_local/HCP_7T_diffusion
 deriv_dir=/Users/dsj3886/data_local/derivatives/HCP_7T_diffusion
@@ -33,9 +28,9 @@ alg=iFOD2
 nsl=10mil
 nstreamlines=10000000
 nthreads=2
-min_free_gb=20          # abort tckgen if less headroom than this
+min_free_gb=20
 
-sl_base=streamlines_alg-${alg}_nsl-${nsl}
+sl_base=streamlines_alg-${alg}_nsl-${nsl}_gpexcl
 out_dir=${deriv_dir}/msmt_csd_nthreads-1/${sub_id}
 tck_fpath=${out_dir}/${sl_base}.tck
 fod_fpath=${out_dir}/wmfod.mif
@@ -47,6 +42,7 @@ reduced_fpath=${out_dir}/${sl_base}_reduced-100k.tck
 desc_base=atlas-custom_subcort-tian${tian_scale}_cort-carpet
 opt_desc="_sift2-noscaling"
 atlas_fpath=${deriv_dir}/atlas_space-sub/${sub_id}/sub-${sub_id}_${desc_base}_atlas_warp-standard2acpc_dc_space-T1w.nii.gz
+gp_mask_fpath=${deriv_dir}/atlas_space-sub/${sub_id}/sub-${sub_id}_atlas-custom_subcort-tianS2_GP-combined_mask_warp-standard2acpc_dc_space-T1w.nii.gz
 conn_dir=${out_dir}/connectome_${sl_base}/${desc_base}${opt_desc}
 conn_csv=${conn_dir}/${sl_base}_connectome${opt_desc}.csv
 assignments=${conn_dir}/${sl_base}_assignments${opt_desc}.txt
@@ -68,13 +64,14 @@ if [[ ! -f $atlas_fpath ]]; then
     echo "  SKIP: missing subject atlas $atlas_fpath (run applywarp_atlas first)"
     exit 0
 fi
+if [[ ! -f $gp_mask_fpath ]]; then
+    echo "  SKIP: missing GP exclusion mask $gp_mask_fpath (run applywarp_GPmask first)"
+    exit 0
+fi
 
-# The subject atlas must have all 54 regions. ~20 subjects were warped with the
-# older 32-region (pre-prefrontal) atlas; their connectomes are dropped by the
-# analysis notebook, so skip them here rather than burn ~10 h of tckgen.
 n_labels=$(mrstats -output max "$atlas_fpath" 2>/dev/null | tr -d '[:space:]')
 if [[ "$n_labels" != "54" ]]; then
-    echo "  SKIP: subject atlas has ${n_labels:-?} regions, expected 54 (re-run applywarp_atlas with the 54-region atlas)"
+    echo "  SKIP: subject atlas has ${n_labels:-?} regions, expected 54"
     exit 0
 fi
 
@@ -86,16 +83,15 @@ fi
 
 mkdir -p $conn_dir
 
-# ---- 1. tractography ------------------------------------------------------
-# Reuse an existing tractogram only if it is complete (a killed tckgen leaves a
-# partial file whose count is below -select).
+# ---- 1. tractography (GP-excluded) ----------------------------------------
 tck_count=$(tckinfo "$tck_fpath" 2>/dev/null | awk '/^[[:space:]]*count:/ {print $2; exit}')
 if [[ -n $tck_count && $tck_count -ge $nstreamlines ]]; then
     echo "  tckgen: reusing existing complete tractogram (count=$tck_count)"
 else
-    echo "  tckgen ..."
+    echo "  tckgen -exclude GP ..."
     tckgen -nthreads $nthreads -select $nstreamlines \
            -seed_image $mask_fpath \
+           -exclude $gp_mask_fpath \
            --force \
            $fod_fpath \
            $tck_fpath || { echo "  FAIL: tckgen"; exit 1; }
@@ -126,11 +122,8 @@ tck2connectome $tck_fpath \
   -symmetric \
   -force || { echo "  FAIL: tck2connectome"; exit 1; }
 
-# ---- 5. per-edge streamlines ----------------------------------------
+# ---- 5. per-edge streamlines (striatal nodes only) --------------------
 echo "  connectome2tck ..."
-# -nodes restricts extraction to edges touching a striatal node (1-8), dropping
-# the cortex-cortex/visual edges nothing here uses (was 2862 files / 5.2 GB per
-# subject unrestricted; see LUT for label numbers).
 connectome2tck $tck_fpath \
   $assignments \
   ${conn_dir}/${sl_base}${opt_desc}_edge- \

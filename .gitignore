@@ -5,5 +5,5 @@ __pycache__/
 # pipeline run artifacts
 logs/
 *.log
-loop.out
+loop*.out
 nohup.out

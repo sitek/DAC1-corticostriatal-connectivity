@@ -1,0 +1,5 @@
+Contrast	Cortex_Category	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Cortex_Category	-	Auditory	Prefrontal	189.0	p < .001	n/a	W = 189.0, p < .001	W = 189.0
+Caudate_Putamen	-	Caudate	Putamen	18.0	p < .001	n/a	W = 18.0, p < .001	W = 18.0
+Cortex_Category * Caudate_Putamen	Auditory	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_Category * Caudate_Putamen	Prefrontal	Caudate	Putamen	1399.0	p < .001	p < .001	W = 1399.0, p < .001	W = 1399.0, q < .001

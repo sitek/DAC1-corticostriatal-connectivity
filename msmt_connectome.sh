@@ -17,9 +17,9 @@ sift2_weights_fpath=${tck_dir}/sift2_weights_streamlines_alg-${alg}_nsl-${nsl}
 desc_base=atlas-custom_subcort-tian${tian_scale}_cort-carpet
 # "_sift2-noscaling": SIFT2-weighted connectome WITHOUT -scale_invnodevol.
 # Node-volume normalisation (striatal volume only) and the SIFT2 mu scaling are
-# applied downstream in connectivity_statistics.ipynb, where they can be
-# controlled and inspected. The old "_sift2" (invnodevol-scaled) outputs are
-# left untouched.
+# applied downstream in connectivity_statistics_gpexcl.ipynb /
+# connectivity_statistics_no-gpexcl.ipynb, where they can be controlled and
+# inspected. The old "_sift2" (invnodevol-scaled) outputs are left untouched.
 opt_desc="_sift2-noscaling"
 out_dir=${tck_dir}/connectome_${sl_base}/${desc_base}${opt_desc}/
 mkdir -p $out_dir
@@ -41,4 +41,5 @@ echo "generating edge streamlines"
 connectome2tck $tck_fpath \
   ${out_dir}/${sl_base}_assignments${opt_desc}.txt \
   ${out_dir}/${sl_base}${opt_desc}_edge- \
+  -nodes 1,2,3,4,5,6,7,8 \
   -force

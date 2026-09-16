@@ -1,5 +1,0 @@
-Contrast	hemisphere	A	B	t	df	p	p_fdr	stat_str	stat_str_fdr
-hemisphere	-	Left	Right	-2.60	75.0	p = .011	p = nan	t(75) = -2.60, p = .011	t(75) = -2.60, q = nan
-Rostral_Caudal	-	Caudal	Rostral	24.80	75.0	p < .001	p = nan	t(75) = 24.80, p < .001	t(75) = 24.80, q = nan
-hemisphere * Rostral_Caudal	Left	Caudal	Rostral	22.03	75.0	p < .001	p < .001	t(75) = 22.03, p < .001	t(75) = 22.03, q < .001
-hemisphere * Rostral_Caudal	Right	Caudal	Rostral	20.62	75.0	p < .001	p < .001	t(75) = 20.62, p < .001	t(75) = 20.62, q < .001
