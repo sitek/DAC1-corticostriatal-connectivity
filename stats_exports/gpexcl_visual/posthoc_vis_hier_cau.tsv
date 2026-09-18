@@ -1,0 +1,12 @@
+Contrast	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Hierarchy	Extrastriate	Pericalcarine	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Hierarchy	Extrastriate	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Hierarchy	Extrastriate	Ventral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Hierarchy	Pericalcarine	Primary	121.0	p < .001	p < .001	W = 121.0, p < .001	W = 121.0, q < .001
+Hierarchy	Pericalcarine	Ventral	654.0	p < .001	p < .001	W = 654.0, p < .001	W = 654.0, q < .001
+Hierarchy	Primary	Ventral	683.0	p < .001	p < .001	W = 683.0, p < .001	W = 683.0, q < .001
+Caudate_Putamen	Caudate	Putamen	0.0	p < .001	n/a	W = 0.0, p < .001	W = 0.0
+Hierarchy * Caudate_Putamen	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Hierarchy * Caudate_Putamen	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Hierarchy * Caudate_Putamen	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Hierarchy * Caudate_Putamen	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001

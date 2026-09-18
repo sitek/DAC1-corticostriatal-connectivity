@@ -1,0 +1,11 @@
+Contrast	Rostral_Caudal	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Rostral_Caudal	-	Caudal	Rostral	0.0	p < .001	n/a	W = 0.0, p < .001	W = 0.0
+Hierarchy	-	Belt	Parabelt	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Hierarchy	-	Belt	Primary	1705.0	p = .016	p = .016	W = 1705.0, p = .016	W = 1705.0, q = .016
+Hierarchy	-	Parabelt	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Rostral_Caudal * Hierarchy	Caudal	Belt	Parabelt	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Rostral_Caudal * Hierarchy	Caudal	Belt	Primary	607.0	p < .001	p < .001	W = 607.0, p < .001	W = 607.0, q < .001
+Rostral_Caudal * Hierarchy	Caudal	Parabelt	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Rostral_Caudal * Hierarchy	Rostral	Belt	Parabelt	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Rostral_Caudal * Hierarchy	Rostral	Belt	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Rostral_Caudal * Hierarchy	Rostral	Parabelt	Primary	274.0	p < .001	p < .001	W = 274.0, p < .001	W = 274.0, q < .001

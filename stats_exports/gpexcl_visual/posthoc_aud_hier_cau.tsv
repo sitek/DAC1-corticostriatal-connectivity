@@ -1,0 +1,8 @@
+Contrast	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Hierarchy	Belt	Parabelt	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Hierarchy	Belt	Primary	1705.0	p = .016	p = .016	W = 1705.0, p = .016	W = 1705.0, q = .016
+Hierarchy	Parabelt	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen	Caudate	Putamen	0.0	p < .001	n/a	W = 0.0, p < .001	W = 0.0
+Hierarchy * Caudate_Putamen	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Hierarchy * Caudate_Putamen	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Hierarchy * Caudate_Putamen	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
