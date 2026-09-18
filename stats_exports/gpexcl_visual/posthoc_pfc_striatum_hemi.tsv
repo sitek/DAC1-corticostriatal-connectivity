@@ -1,0 +1,12 @@
+Contrast	Striatum_ROI	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Striatum_ROI	-	aCAU	aPUT	35.0	p < .001	p < .001	W = 35.0, p < .001	W = 35.0, q < .001
+Striatum_ROI	-	aCAU	pCAU	1255.0	p < .001	p < .001	W = 1255.0, p < .001	W = 1255.0, q < .001
+Striatum_ROI	-	aCAU	pPUT	601.0	p < .001	p < .001	W = 601.0, p < .001	W = 601.0, q < .001
+Striatum_ROI	-	aPUT	pCAU	659.0	p < .001	p < .001	W = 659.0, p < .001	W = 659.0, q < .001
+Striatum_ROI	-	aPUT	pPUT	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Striatum_ROI	-	pCAU	pPUT	446.0	p < .001	p < .001	W = 446.0, p < .001	W = 446.0, q < .001
+hemisphere	-	Left	Right	160.0	p < .001	n/a	W = 160.0, p < .001	W = 160.0
+Striatum_ROI * hemisphere	aCAU	Left	Right	797.0	p < .001	p < .001	W = 797.0, p < .001	W = 797.0, q < .001
+Striatum_ROI * hemisphere	aPUT	Left	Right	7.0	p < .001	p < .001	W = 7.0, p < .001	W = 7.0, q < .001
+Striatum_ROI * hemisphere	pCAU	Left	Right	1371.0	p < .001	p < .001	W = 1371.0, p < .001	W = 1371.0, q < .001
+Striatum_ROI * hemisphere	pPUT	Left	Right	1032.0	p < .001	p < .001	W = 1032.0, p < .001	W = 1032.0, q < .001

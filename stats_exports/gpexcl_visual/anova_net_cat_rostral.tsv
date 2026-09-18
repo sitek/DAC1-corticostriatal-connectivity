@@ -1,0 +1,4 @@
+source	F	df_num	df_den	p	p_gg	np2	eps	stat_str
+Cortex_Category	83.37	2	192	p < .001	p < .001	0.465	0.697	F(1.39, 133.83) = 83.37, p < .001 (GG ε=0.70), ηp² = .46
+Rostral_Caudal	602.57	1	96	p < .001	p < .001	0.863	1.000	F(1, 96) = 602.57, p < .001, ηp² = .86
+Cortex_Category * Rostral_Caudal	572.18	2	192	p < .001	p < .001	0.856	0.808	F(1.62, 155.11) = 572.18, p < .001 (GG ε=0.81), ηp² = .86

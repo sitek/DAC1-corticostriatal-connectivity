@@ -1,0 +1,65 @@
+Contrast	hemisphere	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+hemisphere	-	Left	Right	1086.0	p < .001	n/a	W = 1086.0, p < .001	W = 1086.0
+Cortex_ROI	-	IntraCalc	LOCinf	2266.0	p = .692	p = .692	W = 2266.0, p = .692	W = 2266.0, q = .692
+Cortex_ROI	-	IntraCalc	LOCsup	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	IntraCalc	OccFus	36.0	p < .001	p < .001	W = 36.0, p < .001	W = 36.0, q < .001
+Cortex_ROI	-	IntraCalc	OccPole	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	IntraCalc	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	IntraCalc	TempOccFus	87.0	p < .001	p < .001	W = 87.0, p < .001	W = 87.0, q < .001
+Cortex_ROI	-	LOCinf	LOCsup	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	LOCinf	OccFus	7.0	p < .001	p < .001	W = 7.0, p < .001	W = 7.0, q < .001
+Cortex_ROI	-	LOCinf	OccPole	2.0	p < .001	p < .001	W = 2.0, p < .001	W = 2.0, q < .001
+Cortex_ROI	-	LOCinf	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	LOCinf	TempOccFus	39.0	p < .001	p < .001	W = 39.0, p < .001	W = 39.0, q < .001
+Cortex_ROI	-	LOCsup	OccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	LOCsup	OccPole	3.0	p < .001	p < .001	W = 3.0, p < .001	W = 3.0, q < .001
+Cortex_ROI	-	LOCsup	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	LOCsup	TempOccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	OccFus	OccPole	293.0	p < .001	p < .001	W = 293.0, p < .001	W = 293.0, q < .001
+Cortex_ROI	-	OccFus	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	OccFus	TempOccFus	2.0	p < .001	p < .001	W = 2.0, p < .001	W = 2.0, q < .001
+Cortex_ROI	-	OccPole	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	OccPole	TempOccFus	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Cortex_ROI	-	SupraCalc	TempOccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	IntraCalc	LOCinf	1865.0	p = .066	p = .068	W = 1865.0, p = .066	W = 1865.0, q = .068
+hemisphere * Cortex_ROI	Left	IntraCalc	LOCsup	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	IntraCalc	OccFus	89.0	p < .001	p < .001	W = 89.0, p < .001	W = 89.0, q < .001
+hemisphere * Cortex_ROI	Left	IntraCalc	OccPole	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	IntraCalc	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	IntraCalc	TempOccFus	83.0	p < .001	p < .001	W = 83.0, p < .001	W = 83.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCinf	LOCsup	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCinf	OccFus	5.0	p < .001	p < .001	W = 5.0, p < .001	W = 5.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCinf	OccPole	5.0	p < .001	p < .001	W = 5.0, p < .001	W = 5.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCinf	SupraCalc	4.0	p < .001	p < .001	W = 4.0, p < .001	W = 4.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCinf	TempOccFus	200.0	p < .001	p < .001	W = 200.0, p < .001	W = 200.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCsup	OccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCsup	OccPole	13.0	p < .001	p < .001	W = 13.0, p < .001	W = 13.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCsup	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCsup	TempOccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	OccFus	OccPole	191.0	p < .001	p < .001	W = 191.0, p < .001	W = 191.0, q < .001
+hemisphere * Cortex_ROI	Left	OccFus	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	OccFus	TempOccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	OccPole	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	OccPole	TempOccFus	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+hemisphere * Cortex_ROI	Left	SupraCalc	TempOccFus	52.0	p < .001	p < .001	W = 52.0, p < .001	W = 52.0, q < .001
+hemisphere * Cortex_ROI	Right	IntraCalc	LOCinf	1900.0	p = .087	p = .087	W = 1900.0, p = .087	W = 1900.0, q = .087
+hemisphere * Cortex_ROI	Right	IntraCalc	LOCsup	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	IntraCalc	OccFus	68.0	p < .001	p < .001	W = 68.0, p < .001	W = 68.0, q < .001
+hemisphere * Cortex_ROI	Right	IntraCalc	OccPole	4.0	p < .001	p < .001	W = 4.0, p < .001	W = 4.0, q < .001
+hemisphere * Cortex_ROI	Right	IntraCalc	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	IntraCalc	TempOccFus	137.0	p < .001	p < .001	W = 137.0, p < .001	W = 137.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCinf	LOCsup	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCinf	OccFus	67.0	p < .001	p < .001	W = 67.0, p < .001	W = 67.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCinf	OccPole	12.0	p < .001	p < .001	W = 12.0, p < .001	W = 12.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCinf	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCinf	TempOccFus	61.0	p < .001	p < .001	W = 61.0, p < .001	W = 61.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCsup	OccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCsup	OccPole	6.0	p < .001	p < .001	W = 6.0, p < .001	W = 6.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCsup	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCsup	TempOccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	OccFus	OccPole	971.0	p < .001	p < .001	W = 971.0, p < .001	W = 971.0, q < .001
+hemisphere * Cortex_ROI	Right	OccFus	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	OccFus	TempOccFus	4.0	p < .001	p < .001	W = 4.0, p < .001	W = 4.0, q < .001
+hemisphere * Cortex_ROI	Right	OccPole	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	OccPole	TempOccFus	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+hemisphere * Cortex_ROI	Right	SupraCalc	TempOccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001

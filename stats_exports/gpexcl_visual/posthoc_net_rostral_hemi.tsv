@@ -1,0 +1,5 @@
+Contrast	Rostral_Caudal	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Rostral_Caudal	-	Caudal	Rostral	0.0	p < .001	n/a	W = 0.0, p < .001	W = 0.0
+hemisphere	-	Left	Right	621.0	p < .001	n/a	W = 621.0, p < .001	W = 621.0
+Rostral_Caudal * hemisphere	Caudal	Left	Right	2124.0	p = .365	p = .365	W = 2124.0, p = .365	W = 2124.0, q = .365
+Rostral_Caudal * hemisphere	Rostral	Left	Right	61.0	p < .001	p < .001	W = 61.0, p < .001	W = 61.0, q < .001

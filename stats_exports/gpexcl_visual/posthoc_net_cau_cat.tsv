@@ -1,0 +1,11 @@
+Contrast	Caudate_Putamen	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Caudate_Putamen	-	Caudate	Putamen	0.0	p < .001	n/a	W = 0.0, p < .001	W = 0.0
+Cortex_Category	-	Auditory	Prefrontal	182.0	p < .001	p < .001	W = 182.0, p < .001	W = 182.0, q < .001
+Cortex_Category	-	Auditory	Visual	1983.0	p = .157	p = .157	W = 1983.0, p = .157	W = 1983.0, q = .157
+Cortex_Category	-	Prefrontal	Visual	254.0	p < .001	p < .001	W = 254.0, p < .001	W = 254.0, q < .001
+Caudate_Putamen * Cortex_Category	Caudate	Auditory	Prefrontal	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_Category	Caudate	Auditory	Visual	747.0	p < .001	p < .001	W = 747.0, p < .001	W = 747.0, q < .001
+Caudate_Putamen * Cortex_Category	Caudate	Prefrontal	Visual	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_Category	Putamen	Auditory	Prefrontal	1364.0	p < .001	p < .001	W = 1364.0, p < .001	W = 1364.0, q < .001
+Caudate_Putamen * Cortex_Category	Putamen	Auditory	Visual	1741.0	p = .022	p = .027	W = 1741.0, p = .022	W = 1741.0, q = .027
+Caudate_Putamen * Cortex_Category	Putamen	Prefrontal	Visual	2118.0	p = .353	p = .353	W = 2118.0, p = .353	W = 2118.0, q = .353

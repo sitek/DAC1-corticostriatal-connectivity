@@ -1,0 +1,11 @@
+Contrast	hemisphere	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+hemisphere	-	Left	Right	526.0	p < .001	n/a	W = 526.0, p < .001	W = 526.0
+Cortex_Category	-	Auditory	Prefrontal	182.0	p < .001	p < .001	W = 182.0, p < .001	W = 182.0, q < .001
+Cortex_Category	-	Auditory	Visual	1983.0	p = .157	p = .157	W = 1983.0, p = .157	W = 1983.0, q = .157
+Cortex_Category	-	Prefrontal	Visual	254.0	p < .001	p < .001	W = 254.0, p < .001	W = 254.0, q < .001
+hemisphere * Cortex_Category	Left	Auditory	Prefrontal	21.0	p < .001	p < .001	W = 21.0, p < .001	W = 21.0, q < .001
+hemisphere * Cortex_Category	Left	Auditory	Visual	1876.0	p = .072	p = .108	W = 1876.0, p = .072	W = 1876.0, q = .108
+hemisphere * Cortex_Category	Left	Prefrontal	Visual	40.0	p < .001	p < .001	W = 40.0, p < .001	W = 40.0, q < .001
+hemisphere * Cortex_Category	Right	Auditory	Prefrontal	2012.0	p = .190	p = .228	W = 2012.0, p = .190	W = 2012.0, q = .228
+hemisphere * Cortex_Category	Right	Auditory	Visual	2128.0	p = .372	p = .372	W = 2128.0, p = .372	W = 2128.0, q = .372
+hemisphere * Cortex_Category	Right	Prefrontal	Visual	1711.0	p = .017	p = .033	W = 1711.0, p = .017	W = 1711.0, q = .033
