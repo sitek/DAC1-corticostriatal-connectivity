@@ -1,20 +1,11 @@
 Contrast	Rostral_Caudal	A	B	W	p	p_fdr	stat_str	stat_str_fdr
 Rostral_Caudal	-	Caudal	Rostral	0.0	p < .001	n/a	W = 0.0, p < .001	W = 0.0
-Hierarchy	-	Extrastriate	Pericalcarine	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 Hierarchy	-	Extrastriate	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 Hierarchy	-	Extrastriate	Ventral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
-Hierarchy	-	Pericalcarine	Primary	121.0	p < .001	p < .001	W = 121.0, p < .001	W = 121.0, q < .001
-Hierarchy	-	Pericalcarine	Ventral	654.0	p < .001	p < .001	W = 654.0, p < .001	W = 654.0, q < .001
-Hierarchy	-	Primary	Ventral	683.0	p < .001	p < .001	W = 683.0, p < .001	W = 683.0, q < .001
-Rostral_Caudal * Hierarchy	Caudal	Extrastriate	Pericalcarine	4.0	p < .001	p < .001	W = 4.0, p < .001	W = 4.0, q < .001
+Hierarchy	-	Primary	Ventral	1630.0	p = .007	p = .007	W = 1630.0, p = .007	W = 1630.0, q = .007
 Rostral_Caudal * Hierarchy	Caudal	Extrastriate	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 Rostral_Caudal * Hierarchy	Caudal	Extrastriate	Ventral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
-Rostral_Caudal * Hierarchy	Caudal	Pericalcarine	Primary	4.0	p < .001	p < .001	W = 4.0, p < .001	W = 4.0, q < .001
-Rostral_Caudal * Hierarchy	Caudal	Pericalcarine	Ventral	15.0	p < .001	p < .001	W = 15.0, p < .001	W = 15.0, q < .001
-Rostral_Caudal * Hierarchy	Caudal	Primary	Ventral	638.0	p < .001	p < .001	W = 638.0, p < .001	W = 638.0, q < .001
-Rostral_Caudal * Hierarchy	Rostral	Extrastriate	Pericalcarine	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
-Rostral_Caudal * Hierarchy	Rostral	Extrastriate	Primary	934.0	p < .001	p < .001	W = 934.0, p < .001	W = 934.0, q < .001
+Rostral_Caudal * Hierarchy	Caudal	Primary	Ventral	171.0	p < .001	p < .001	W = 171.0, p < .001	W = 171.0, q < .001
+Rostral_Caudal * Hierarchy	Rostral	Extrastriate	Primary	17.0	p < .001	p < .001	W = 17.0, p < .001	W = 17.0, q < .001
 Rostral_Caudal * Hierarchy	Rostral	Extrastriate	Ventral	2246.0	p = .640	p = .640	W = 2246.0, p = .640	W = 2246.0, q = .640
-Rostral_Caudal * Hierarchy	Rostral	Pericalcarine	Primary	12.0	p < .001	p < .001	W = 12.0, p < .001	W = 12.0, q < .001
-Rostral_Caudal * Hierarchy	Rostral	Pericalcarine	Ventral	3.0	p < .001	p < .001	W = 3.0, p < .001	W = 3.0, q < .001
-Rostral_Caudal * Hierarchy	Rostral	Primary	Ventral	942.0	p < .001	p < .001	W = 942.0, p < .001	W = 942.0, q < .001
+Rostral_Caudal * Hierarchy	Rostral	Primary	Ventral	22.0	p < .001	p < .001	W = 22.0, p < .001	W = 22.0, q < .001

@@ -1,20 +1,11 @@
 Contrast	Caudate_Putamen	A	B	W	p	p_fdr	stat_str	stat_str_fdr
 Caudate_Putamen	-	Caudate	Putamen	0.0	p < .001	n/a	W = 0.0, p < .001	W = 0.0
-Hierarchy	-	Extrastriate	Pericalcarine	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 Hierarchy	-	Extrastriate	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 Hierarchy	-	Extrastriate	Ventral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
-Hierarchy	-	Pericalcarine	Primary	121.0	p < .001	p < .001	W = 121.0, p < .001	W = 121.0, q < .001
-Hierarchy	-	Pericalcarine	Ventral	654.0	p < .001	p < .001	W = 654.0, p < .001	W = 654.0, q < .001
-Hierarchy	-	Primary	Ventral	683.0	p < .001	p < .001	W = 683.0, p < .001	W = 683.0, q < .001
-Caudate_Putamen * Hierarchy	Caudate	Extrastriate	Pericalcarine	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Hierarchy	-	Primary	Ventral	1630.0	p = .007	p = .007	W = 1630.0, p = .007	W = 1630.0, q = .007
 Caudate_Putamen * Hierarchy	Caudate	Extrastriate	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 Caudate_Putamen * Hierarchy	Caudate	Extrastriate	Ventral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
-Caudate_Putamen * Hierarchy	Caudate	Pericalcarine	Primary	67.0	p < .001	p < .001	W = 67.0, p < .001	W = 67.0, q < .001
-Caudate_Putamen * Hierarchy	Caudate	Pericalcarine	Ventral	153.0	p < .001	p < .001	W = 153.0, p < .001	W = 153.0, q < .001
-Caudate_Putamen * Hierarchy	Caudate	Primary	Ventral	2189.0	p = .501	p = .501	W = 2189.0, p = .501	W = 2189.0, q = .501
-Caudate_Putamen * Hierarchy	Putamen	Extrastriate	Pericalcarine	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Hierarchy	Caudate	Primary	Ventral	464.0	p < .001	p < .001	W = 464.0, p < .001	W = 464.0, q < .001
 Caudate_Putamen * Hierarchy	Putamen	Extrastriate	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 Caudate_Putamen * Hierarchy	Putamen	Extrastriate	Ventral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
-Caudate_Putamen * Hierarchy	Putamen	Pericalcarine	Primary	89.0	p < .001	p < .001	W = 89.0, p < .001	W = 89.0, q < .001
-Caudate_Putamen * Hierarchy	Putamen	Pericalcarine	Ventral	517.0	p < .001	p < .001	W = 517.0, p < .001	W = 517.0, q < .001
-Caudate_Putamen * Hierarchy	Putamen	Primary	Ventral	684.0	p < .001	p < .001	W = 684.0, p < .001	W = 684.0, q < .001
+Caudate_Putamen * Hierarchy	Putamen	Primary	Ventral	1491.0	p = .001	p = .001	W = 1491.0, p = .001	W = 1491.0, q = .001
