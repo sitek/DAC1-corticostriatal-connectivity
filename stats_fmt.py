@@ -201,7 +201,8 @@ def export_posthoc(pg_df, label, out_dir='.', filename=None):
 
     grouping_cols = [c for c in ['Contrast', 'Cortex_ROI', 'Cortex_Category',
                                  'Caudate_Putamen', 'Rostral_Caudal',
-                                 'hemisphere', 'Striatum_ROI', 'A', 'B']
+                                 'hemisphere', 'Striatum_ROI', 'Hierarchy',
+                                 'A', 'B']
                      if c in df.columns]
     has_fdr = 'p_corr' in df.columns
     nonparam = 'W_val' in df.columns and 'T' not in df.columns
@@ -236,6 +237,33 @@ def export_posthoc(pg_df, label, out_dir='.', filename=None):
     os.makedirs(out_dir, exist_ok=True)
     fname = filename or f'posthoc_{label}.tsv'
     table.to_csv(os.path.join(out_dir, fname), sep='\t', index=False)
+    return table
+
+
+def export_cell_means(df, by, label, out_dir='.', subject='participant_id',
+                      dv='Connectivity', filename=None):
+    """
+    Per-cell descriptives that record the DIRECTION of effects, which the
+    ANOVA / Wilcoxon exports (W = min of the signed-rank sums) do not.
+
+    Values are first averaged within participant x cell -- the same values
+    that enter the RM-ANOVAs and Wilcoxon tests -- then summarised across
+    participants: mean, median, SD and n. Saved as means_<label>.tsv.
+
+        export_cell_means(net_df, ['Cortex_Category', 'hemisphere'],
+                          'net_cat_hemi', STATS_OUT_DIR)
+    """
+    by = [by] if isinstance(by, str) else list(by)
+    per_subject = df.groupby([subject] + by, as_index=False)[dv].mean()
+    table = (per_subject.groupby(by)[dv]
+             .agg(['mean', 'median', 'std', 'count'])
+             .rename(columns={'std': 'sd', 'count': 'n'})
+             .reset_index())
+
+    os.makedirs(out_dir, exist_ok=True)
+    fname = filename or f'means_{label}.tsv'
+    table.to_csv(os.path.join(out_dir, fname), sep='\t', index=False,
+                 float_format='%.6g')
     return table
 
 

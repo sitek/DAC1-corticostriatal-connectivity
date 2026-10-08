@@ -2,7 +2,9 @@
 
 tian_scale='S2'
 
-atlas_base=atlas-custom_subcort-tian${tian_scale}_cort-aud-vis-prefrontal
+# ATLAS_BASE (env) selects the atlas version; default is the 54-region v1 atlas.
+#   ATLAS_BASE=atlas-custom_subcort-tianS2_cort-aud-vis-prefrontal-v2 zsh applytransforms_MNI2009cAsym-to-MNINLin6Asym.sh
+atlas_base=${ATLAS_BASE:-atlas-custom_subcort-tian${tian_scale}_cort-aud-vis-prefrontal}
 
 xfm_fpath='/Users/dsj3886/data_local/reference/tpl-MNI152NLin2009cAsym_from-MNI152NLin6Asym_mode-image_xfm.h5'
 fixed_fpath='/Users/dsj3886/data_local/HCP_3T_structural/100610/MNINonLinear/T1w.nii.gz'

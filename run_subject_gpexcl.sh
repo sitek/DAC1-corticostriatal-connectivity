@@ -15,6 +15,14 @@
 #
 # Usage (one subject):  zsh run_subject_gpexcl.sh <sub_id>
 # Loop (throttled):     zsh loop_mrtrix3.sh run_subject_gpexcl.sh <max_jobs>
+#
+# Atlas version (env vars; defaults = the 54-region v1 run):
+#   SL_TAG      streamline tag -> tck / SIFT2 weights / mu / connectome dir  (gpexcl)
+#   ATLAS_DESC  subject-space atlas desc                                     (atlas-custom_subcort-tianS2_cort-carpet)
+#   N_LABELS    expected number of atlas labels                              (54)
+# run_subject_gpexcl_v2.sh sets these for the 70-region v2 atlas. A distinct
+# SL_TAG matters: tcksift2 --force rewrites the weights and mu, and the analysis
+# notebook normalises each connectome by the mu file with the matching tag.
 
 set -u
 
@@ -30,7 +38,10 @@ nstreamlines=10000000
 nthreads=2
 min_free_gb=20
 
-sl_base=streamlines_alg-${alg}_nsl-${nsl}_gpexcl
+sl_tag=${SL_TAG:-gpexcl}
+n_labels_expected=${N_LABELS:-54}
+
+sl_base=streamlines_alg-${alg}_nsl-${nsl}_${sl_tag}
 out_dir=${deriv_dir}/msmt_csd_nthreads-1/${sub_id}
 tck_fpath=${out_dir}/${sl_base}.tck
 fod_fpath=${out_dir}/wmfod.mif
@@ -39,7 +50,7 @@ weights_fpath=${out_dir}/sift2_weights_${sl_base}
 mu_fpath=${out_dir}/sift2_mu_${sl_base}.txt
 reduced_fpath=${out_dir}/${sl_base}_reduced-100k.tck
 
-desc_base=atlas-custom_subcort-tian${tian_scale}_cort-carpet
+desc_base=${ATLAS_DESC:-atlas-custom_subcort-tian${tian_scale}_cort-carpet}
 opt_desc="_sift2-noscaling"
 atlas_fpath=${deriv_dir}/atlas_space-sub/${sub_id}/sub-${sub_id}_${desc_base}_atlas_warp-standard2acpc_dc_space-T1w.nii.gz
 gp_mask_fpath=${deriv_dir}/atlas_space-sub/${sub_id}/sub-${sub_id}_atlas-custom_subcort-tianS2_GP-combined_mask_warp-standard2acpc_dc_space-T1w.nii.gz
@@ -70,8 +81,8 @@ if [[ ! -f $gp_mask_fpath ]]; then
 fi
 
 n_labels=$(mrstats -output max "$atlas_fpath" 2>/dev/null | tr -d '[:space:]')
-if [[ "$n_labels" != "54" ]]; then
-    echo "  SKIP: subject atlas has ${n_labels:-?} regions, expected 54"
+if [[ "$n_labels" != "$n_labels_expected" ]]; then
+    echo "  SKIP: subject atlas has ${n_labels:-?} regions, expected ${n_labels_expected}"
     exit 0
 fi
 
