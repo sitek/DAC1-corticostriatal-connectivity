@@ -1,0 +1,8 @@
+source	F	df_num	df_den	p	p_gg	np2	eps	stat_str
+Caudate_Putamen	2097.09	1.0	96.0	p < .001				F(1, 96) = 2097.09, p < .001
+Rostral_Caudal	2367.69	1.0	96.0	p < .001				F(1, 96) = 2367.69, p < .001
+Cortex_Category	1616.99	3.0	288.0	p < .001				F(3, 288) = 1616.99, p < .001
+Caudate_Putamen:Rostral_Caudal	61.54	1.0	96.0	p < .001				F(1, 96) = 61.54, p < .001
+Caudate_Putamen:Cortex_Category	1679.87	3.0	288.0	p < .001				F(3, 288) = 1679.87, p < .001
+Rostral_Caudal:Cortex_Category	1342.82	3.0	288.0	p < .001				F(3, 288) = 1342.82, p < .001
+Caudate_Putamen:Rostral_Caudal:Cortex_Category	123.56	3.0	288.0	p < .001				F(3, 288) = 123.56, p < .001

@@ -1,0 +1,5 @@
+Contrast	Caudate_Putamen	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Caudate_Putamen	-	Caudate	Putamen	32.0	p < .001	n/a	W = 32.0, p < .001	W = 32.0
+Rostral_Caudal	-	Caudal	Rostral	0.0	p < .001	n/a	W = 0.0, p < .001	W = 0.0
+Caudate_Putamen * Rostral_Caudal	Caudate	Caudal	Rostral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Rostral_Caudal	Putamen	Caudal	Rostral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001

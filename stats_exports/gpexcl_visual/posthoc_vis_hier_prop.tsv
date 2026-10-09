@@ -1,0 +1,4 @@
+Contrast	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Hierarchy	Extrastriate	Primary	1330.0	p < .001	p < .001	W = 1330.0, p < .001	W = 1330.0, q < .001
+Hierarchy	Extrastriate	Ventral	9.0	p < .001	p < .001	W = 9.0, p < .001	W = 9.0, q < .001
+Hierarchy	Primary	Ventral	282.0	p < .001	p < .001	W = 282.0, p < .001	W = 282.0, q < .001

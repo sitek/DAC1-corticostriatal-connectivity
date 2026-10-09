@@ -1,0 +1,4 @@
+source	F	df_num	df_den	p	p_gg	np2	eps	stat_str
+Cortex_Category	1616.99	3	288	p < .001	p < .001	0.944	0.804	F(2.41, 231.63) = 1616.99, p < .001 (GG ε=0.80), ηp² = .94
+Caudate_Putamen	2097.09	1	96	p < .001	p < .001	0.956	1.000	F(1, 96) = 2097.09, p < .001, ηp² = .96
+Cortex_Category * Caudate_Putamen	1679.87	3	288	p < .001	p < .001	0.946	0.870	F(2.61, 250.50) = 1679.87, p < .001 (GG ε=0.87), ηp² = .95

@@ -1,5 +1,5 @@
 Contrast	hemisphere	A	B	W	p	p_fdr	stat_str	stat_str_fdr
-hemisphere	-	Left	Right	160.0	p < .001	n/a	W = 160.0, p < .001	W = 160.0
-Rostral_Caudal	-	Caudal	Rostral	236.0	p < .001	n/a	W = 236.0, p < .001	W = 236.0
-hemisphere * Rostral_Caudal	Left	Caudal	Rostral	92.0	p < .001	p < .001	W = 92.0, p < .001	W = 92.0, q < .001
-hemisphere * Rostral_Caudal	Right	Caudal	Rostral	1433.0	p < .001	p < .001	W = 1433.0, p < .001	W = 1433.0, q < .001
+hemisphere	-	Left	Right	405.0	p < .001	n/a	W = 405.0, p < .001	W = 405.0
+Rostral_Caudal	-	Caudal	Rostral	2069.0	p = .269	n/a	W = 2069.0, p = .269	W = 2069.0
+hemisphere * Rostral_Caudal	Left	Caudal	Rostral	1562.0	p = .003	p = .003	W = 1562.0, p = .003	W = 1562.0, q = .003
+hemisphere * Rostral_Caudal	Right	Caudal	Rostral	899.0	p < .001	p < .001	W = 899.0, p < .001	W = 899.0, q < .001

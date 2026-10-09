@@ -1,0 +1,4 @@
+Contrast	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Hierarchy	Belt	Parabelt	2006.0	p = .183	p = .183	W = 2006.0, p = .183	W = 2006.0, q = .183
+Hierarchy	Belt	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Hierarchy	Parabelt	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
