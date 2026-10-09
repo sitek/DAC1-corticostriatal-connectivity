@@ -1,0 +1,35 @@
+2026-10-09 12:53:49  1. antsApplyTransforms -> MNI152NLin6Asym
+Using double precision for computations.
+Input scalar image: /Users/dsj3886/data_local/derivatives/atlas-custom_subcort-tianS2_cort-aud-vis-prefrontal-v2/atlas-custom_subcort-tianS2_cort-aud-vis-prefrontal-v2_atlas.nii.gz
+Reference image: /Users/dsj3886/data_local/HCP_3T_structural/100610/MNINonLinear/T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. /Users/dsj3886/data_local/reference/tpl-MNI152NLin2009cAsym_from-MNI152NLin6Asym_mode-image_xfm.h5[0] (type = AffineTransform)
+  2. /Users/dsj3886/data_local/reference/tpl-MNI152NLin2009cAsym_from-MNI152NLin6Asym_mode-image_xfm.h5[1] (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LabelImageGenericInterpolateImageFunction
+Output warped image: /Users/dsj3886/data_local/derivatives/atlas-custom_subcort-tianS2_cort-aud-vis-prefrontal-v2/atlas-custom_subcort-tianS2_cort-aud-vis-prefrontal-v2_atlas_space-MNI152NLin6Asym.nii.gz
+2026-10-09 12:53:52  2. applywarp atlas -> subject space
+Image Exception : #63 :: No image files match: /Users/dsj3886/data_local/HCP_3T_structural/130114/T1w/T1w_acpc_dc
+Image Exception : #22 :: Failed to read volume /Users/dsj3886/data_local/HCP_3T_structural/130114/T1w/T1w_acpc_dc.nii.gz
+Error : No image files match: /Users/dsj3886/data_local/HCP_3T_structural/130114/T1w/T1w_acpc_dc
+libc++abi: terminating due to uncaught exception of type std::runtime_error: Failed to read volume /Users/dsj3886/data_local/HCP_3T_structural/130114/T1w/T1w_acpc_dc.nii.gz
+Error : No image files match: /Users/dsj3886/data_local/HCP_3T_structural/130114/T1w/T1w_acpc_dc
+Image Exception : #63 :: No image files match: /Users/dsj3886/data_local/HCP_3T_structural/126931/T1w/T1w_acpc_dc
+Image Exception : #22 :: Failed to read volume /Users/dsj3886/data_local/HCP_3T_structural/126931/T1w/T1w_acpc_dc.nii.gz
+Error : No image files match: /Users/dsj3886/data_local/HCP_3T_structural/126931/T1w/T1w_acpc_dc
+libc++abi: terminating due to uncaught exception of type std::runtime_error: Failed to read volume /Users/dsj3886/data_local/HCP_3T_structural/126931/T1w/T1w_acpc_dc.nii.gz
+Error : No image files match: /Users/dsj3886/data_local/HCP_3T_structural/126931/T1w/T1w_acpc_dc
+/Users/dsj3886/fsl/share/fsl/bin/applywarp: line 2: 20786 Abort trap: 6           /Users/dsj3886/fsl/bin/applywarp "$@"
+Image Exception : #63 :: No image files match: /Users/dsj3886/data_local/HCP_3T_structural/169040/T1w/T1w_acpc_dc
+Image Exception : #22 :: Failed to read volume /Users/dsj3886/data_local/HCP_3T_structural/169040/T1w/T1w_acpc_dc.nii.gz
+Error : No image files match: /Users/dsj3886/data_local/HCP_3T_structural/169040/T1w/T1w_acpc_dc
+libc++abi: terminating due to uncaught exception of type std::runtime_error: Failed to read volume /Users/dsj3886/data_local/HCP_3T_structural/169040/T1w/T1w_acpc_dc.nii.gz
+Error : No image files match: /Users/dsj3886/data_local/HCP_3T_structural/169040/T1w/T1w_acpc_dc
+/Users/dsj3886/fsl/share/fsl/bin/applywarp: line 2: 20774 Abort trap: 6           /Users/dsj3886/fsl/bin/applywarp "$@"
+/Users/dsj3886/fsl/share/fsl/bin/applywarp: line 2: 20964 Abort trap: 6           /Users/dsj3886/fsl/bin/applywarp "$@"
+  subject atlases with 70 labels: 77   (other: 0)
+2026-10-09 12:54:45  3. run_subject_gpexcl_v2.sh over all subjects (max_jobs=8)
+2026-10-09 12:54:45  start 100 subjects  max_jobs=8  script=run_subject_gpexcl_v2.sh
+logs: /Users/dsj3886/software/hcp7t_mrtrix3_TianS2/logs/run_subject_gpexcl_v2
