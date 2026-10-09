@@ -4,7 +4,7 @@
 # re-tracking of every subject. Run atlas_construction.ipynb with
 # ATLAS_VERSION = 'v2' first (and eyeball the new masks), then:
 #
-#   nohup caffeinate -i zsh run_v2_pipeline.sh 8 > v2_pipeline.out 2>&1 &!
+#   nohup caffeinate -i zsh run_v2_pipeline.sh 8 > v2_pipeline.out 2>&1 & disown
 #   tail -f v2_pipeline.out
 #
 # Re-running is safe: run_subject_gpexcl.sh skips subjects whose v2 connectome
