@@ -1,0 +1,11 @@
+Contrast	Caudate_Putamen	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Caudate_Putamen	-	Caudate	Putamen	0.0	p < .001	n/a	W = 0.0, p < .001	W = 0.0
+Hierarchy	-	Belt	Parabelt	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Hierarchy	-	Belt	Primary	881.0	p < .001	p < .001	W = 881.0, p < .001	W = 881.0, q < .001
+Hierarchy	-	Parabelt	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Hierarchy	Caudate	Belt	Parabelt	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Hierarchy	Caudate	Belt	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Hierarchy	Caudate	Parabelt	Primary	339.0	p < .001	p < .001	W = 339.0, p < .001	W = 339.0, q < .001
+Caudate_Putamen * Hierarchy	Putamen	Belt	Parabelt	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Hierarchy	Putamen	Belt	Primary	616.0	p < .001	p < .001	W = 616.0, p < .001	W = 616.0, q < .001
+Caudate_Putamen * Hierarchy	Putamen	Parabelt	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001

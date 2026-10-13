@@ -1,0 +1,12 @@
+Contrast	Cortex_Category	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Cortex_Category	-	Auditory	Motor	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_Category	-	Auditory	Prefrontal	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Cortex_Category	-	Auditory	Visual	87.0	p < .001	p < .001	W = 87.0, p < .001	W = 87.0, q < .001
+Cortex_Category	-	Motor	Prefrontal	343.0	p < .001	p < .001	W = 343.0, p < .001	W = 343.0, q < .001
+Cortex_Category	-	Motor	Visual	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_Category	-	Prefrontal	Visual	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere	-	Left	Right	2354.0	p = .937	n/a	W = 2354.0, p = .937	W = 2354.0
+Cortex_Category * hemisphere	Auditory	Left	Right	1967.0	p = .141	p = .141	W = 1967.0, p = .141	W = 1967.0, q = .141
+Cortex_Category * hemisphere	Motor	Left	Right	606.0	p < .001	p < .001	W = 606.0, p < .001	W = 606.0, q < .001
+Cortex_Category * hemisphere	Prefrontal	Left	Right	417.0	p < .001	p < .001	W = 417.0, p < .001	W = 417.0, q < .001
+Cortex_Category * hemisphere	Visual	Left	Right	729.0	p < .001	p < .001	W = 729.0, p < .001	W = 729.0, q < .001

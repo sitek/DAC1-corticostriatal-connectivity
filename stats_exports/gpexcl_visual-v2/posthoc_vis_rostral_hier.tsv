@@ -1,0 +1,20 @@
+Contrast	Rostral_Caudal	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Rostral_Caudal	-	Caudal	Rostral	0.0	p < .001	n/a	W = 0.0, p < .001	W = 0.0
+Hierarchy	-	Extrastriate	LatOccTemp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Hierarchy	-	Extrastriate	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Hierarchy	-	Extrastriate	Ventral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Hierarchy	-	LatOccTemp	Primary	47.0	p < .001	p < .001	W = 47.0, p < .001	W = 47.0, q < .001
+Hierarchy	-	LatOccTemp	Ventral	350.0	p < .001	p < .001	W = 350.0, p < .001	W = 350.0, q < .001
+Hierarchy	-	Primary	Ventral	276.0	p < .001	p < .001	W = 276.0, p < .001	W = 276.0, q < .001
+Rostral_Caudal * Hierarchy	Caudal	Extrastriate	LatOccTemp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Rostral_Caudal * Hierarchy	Caudal	Extrastriate	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Rostral_Caudal * Hierarchy	Caudal	Extrastriate	Ventral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Rostral_Caudal * Hierarchy	Caudal	LatOccTemp	Primary	100.0	p < .001	p < .001	W = 100.0, p < .001	W = 100.0, q < .001
+Rostral_Caudal * Hierarchy	Caudal	LatOccTemp	Ventral	1125.0	p < .001	p < .001	W = 1125.0, p < .001	W = 1125.0, q < .001
+Rostral_Caudal * Hierarchy	Caudal	Primary	Ventral	53.0	p < .001	p < .001	W = 53.0, p < .001	W = 53.0, q < .001
+Rostral_Caudal * Hierarchy	Rostral	Extrastriate	LatOccTemp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Rostral_Caudal * Hierarchy	Rostral	Extrastriate	Primary	124.0	p < .001	p < .001	W = 124.0, p < .001	W = 124.0, q < .001
+Rostral_Caudal * Hierarchy	Rostral	Extrastriate	Ventral	203.0	p < .001	p < .001	W = 203.0, p < .001	W = 203.0, q < .001
+Rostral_Caudal * Hierarchy	Rostral	LatOccTemp	Primary	7.0	p < .001	p < .001	W = 7.0, p < .001	W = 7.0, q < .001
+Rostral_Caudal * Hierarchy	Rostral	LatOccTemp	Ventral	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Rostral_Caudal * Hierarchy	Rostral	Primary	Ventral	1402.0	p < .001	p < .001	W = 1402.0, p < .001	W = 1402.0, q < .001

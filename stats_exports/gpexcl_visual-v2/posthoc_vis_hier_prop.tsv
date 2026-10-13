@@ -1,0 +1,7 @@
+Contrast	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Hierarchy	Extrastriate	LatOccTemp	2263.0	p = .684	p = .684	W = 2263.0, p = .684	W = 2263.0, q = .684
+Hierarchy	Extrastriate	Primary	1635.0	p = .008	p = .012	W = 1635.0, p = .008	W = 1635.0, q = .012
+Hierarchy	Extrastriate	Ventral	117.0	p < .001	p < .001	W = 117.0, p < .001	W = 117.0, q < .001
+Hierarchy	LatOccTemp	Primary	1953.0	p = .128	p = .154	W = 1953.0, p = .128	W = 1953.0, q = .154
+Hierarchy	LatOccTemp	Ventral	904.0	p < .001	p < .001	W = 904.0, p < .001	W = 904.0, q < .001
+Hierarchy	Primary	Ventral	564.0	p < .001	p < .001	W = 564.0, p < .001	W = 564.0, q < .001

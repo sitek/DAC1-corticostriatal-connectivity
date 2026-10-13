@@ -1,0 +1,38 @@
+Contrast	Cortex_ROI	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Cortex_ROI	-	ACC	FMC	1147.0	p < .001	p < .001	W = 1147.0, p < .001	W = 1147.0, q < .001
+Cortex_ROI	-	ACC	FP	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	ACC	ParsOp	45.0	p < .001	p < .001	W = 45.0, p < .001	W = 45.0, q < .001
+Cortex_ROI	-	ACC	ParsTri	224.0	p < .001	p < .001	W = 224.0, p < .001	W = 224.0, q < .001
+Cortex_ROI	-	ACC	MFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	ACC	OFC	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	ACC	SFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	FMC	FP	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	FMC	ParsOp	36.0	p < .001	p < .001	W = 36.0, p < .001	W = 36.0, q < .001
+Cortex_ROI	-	FMC	ParsTri	135.0	p < .001	p < .001	W = 135.0, p < .001	W = 135.0, q < .001
+Cortex_ROI	-	FMC	MFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	FMC	OFC	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	FMC	SFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	FP	ParsOp	15.0	p < .001	p < .001	W = 15.0, p < .001	W = 15.0, q < .001
+Cortex_ROI	-	FP	ParsTri	3.0	p < .001	p < .001	W = 3.0, p < .001	W = 3.0, q < .001
+Cortex_ROI	-	FP	MFG	165.0	p < .001	p < .001	W = 165.0, p < .001	W = 165.0, q < .001
+Cortex_ROI	-	FP	OFC	27.0	p < .001	p < .001	W = 27.0, p < .001	W = 27.0, q < .001
+Cortex_ROI	-	FP	SFG	498.0	p < .001	p < .001	W = 498.0, p < .001	W = 498.0, q < .001
+Cortex_ROI	-	ParsOp	ParsTri	845.0	p < .001	p < .001	W = 845.0, p < .001	W = 845.0, q < .001
+Cortex_ROI	-	ParsOp	MFG	271.0	p < .001	p < .001	W = 271.0, p < .001	W = 271.0, q < .001
+Cortex_ROI	-	ParsOp	OFC	722.0	p < .001	p < .001	W = 722.0, p < .001	W = 722.0, q < .001
+Cortex_ROI	-	ParsOp	SFG	44.0	p < .001	p < .001	W = 44.0, p < .001	W = 44.0, q < .001
+Cortex_ROI	-	ParsTri	MFG	45.0	p < .001	p < .001	W = 45.0, p < .001	W = 45.0, q < .001
+Cortex_ROI	-	ParsTri	OFC	221.0	p < .001	p < .001	W = 221.0, p < .001	W = 221.0, q < .001
+Cortex_ROI	-	ParsTri	SFG	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Cortex_ROI	-	MFG	OFC	782.0	p < .001	p < .001	W = 782.0, p < .001	W = 782.0, q < .001
+Cortex_ROI	-	MFG	SFG	611.0	p < .001	p < .001	W = 611.0, p < .001	W = 611.0, q < .001
+Cortex_ROI	-	OFC	SFG	43.0	p < .001	p < .001	W = 43.0, p < .001	W = 43.0, q < .001
+Rostral_Caudal	-	Caudal	Rostral	2325.0	p = .854	n/a	W = 2325.0, p = .854	W = 2325.0
+Cortex_ROI * Rostral_Caudal	ACC	Caudal	Rostral	42.0	p < .001	p < .001	W = 42.0, p < .001	W = 42.0, q < .001
+Cortex_ROI * Rostral_Caudal	FMC	Caudal	Rostral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI * Rostral_Caudal	FP	Caudal	Rostral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI * Rostral_Caudal	ParsOp	Caudal	Rostral	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Cortex_ROI * Rostral_Caudal	ParsTri	Caudal	Rostral	538.0	p < .001	p < .001	W = 538.0, p < .001	W = 538.0, q < .001
+Cortex_ROI * Rostral_Caudal	MFG	Caudal	Rostral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI * Rostral_Caudal	OFC	Caudal	Rostral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI * Rostral_Caudal	SFG	Caudal	Rostral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001

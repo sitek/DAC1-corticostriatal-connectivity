@@ -1,0 +1,4 @@
+source	F	df_num	df_den	p	p_gg	np2	eps	stat_str
+Cortex_ROI	740.67	6	576	p < .001	p < .001	0.885	0.510	F(3.06, 293.97) = 740.67, p < .001 (GG ε=0.51), ηp² = .89
+Rostral_Caudal	650.90	1	96	p < .001	p < .001	0.871	1.000	F(1, 96) = 650.90, p < .001, ηp² = .87
+Cortex_ROI * Rostral_Caudal	41.87	6	576	p < .001	p < .001	0.304	0.742	F(4.45, 427.55) = 41.87, p < .001 (GG ε=0.74), ηp² = .30

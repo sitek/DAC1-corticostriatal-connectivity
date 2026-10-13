@@ -1,0 +1,20 @@
+Contrast	hemisphere	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+hemisphere	-	Left	Right	2354.0	p = .937	n/a	W = 2354.0, p = .937	W = 2354.0
+Cortex_Category	-	Auditory	Motor	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_Category	-	Auditory	Prefrontal	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Cortex_Category	-	Auditory	Visual	87.0	p < .001	p < .001	W = 87.0, p < .001	W = 87.0, q < .001
+Cortex_Category	-	Motor	Prefrontal	343.0	p < .001	p < .001	W = 343.0, p < .001	W = 343.0, q < .001
+Cortex_Category	-	Motor	Visual	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_Category	-	Prefrontal	Visual	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_Category	Left	Auditory	Motor	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_Category	Left	Auditory	Prefrontal	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+hemisphere * Cortex_Category	Left	Auditory	Visual	86.0	p < .001	p < .001	W = 86.0, p < .001	W = 86.0, q < .001
+hemisphere * Cortex_Category	Left	Motor	Prefrontal	2046.0	p = .235	p = .235	W = 2046.0, p = .235	W = 2046.0, q = .235
+hemisphere * Cortex_Category	Left	Motor	Visual	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_Category	Left	Prefrontal	Visual	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_Category	Right	Auditory	Motor	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_Category	Right	Auditory	Prefrontal	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+hemisphere * Cortex_Category	Right	Auditory	Visual	412.0	p < .001	p < .001	W = 412.0, p < .001	W = 412.0, q < .001
+hemisphere * Cortex_Category	Right	Motor	Prefrontal	58.0	p < .001	p < .001	W = 58.0, p < .001	W = 58.0, q < .001
+hemisphere * Cortex_Category	Right	Motor	Visual	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_Category	Right	Prefrontal	Visual	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001

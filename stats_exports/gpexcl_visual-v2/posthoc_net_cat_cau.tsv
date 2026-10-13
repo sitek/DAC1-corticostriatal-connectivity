@@ -1,0 +1,12 @@
+Contrast	Cortex_Category	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Cortex_Category	-	Auditory	Motor	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_Category	-	Auditory	Prefrontal	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Cortex_Category	-	Auditory	Visual	87.0	p < .001	p < .001	W = 87.0, p < .001	W = 87.0, q < .001
+Cortex_Category	-	Motor	Prefrontal	343.0	p < .001	p < .001	W = 343.0, p < .001	W = 343.0, q < .001
+Cortex_Category	-	Motor	Visual	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_Category	-	Prefrontal	Visual	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen	-	Caudate	Putamen	12.0	p < .001	n/a	W = 12.0, p < .001	W = 12.0
+Cortex_Category * Caudate_Putamen	Auditory	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_Category * Caudate_Putamen	Motor	Caudate	Putamen	4.0	p < .001	p < .001	W = 4.0, p < .001	W = 4.0, q < .001
+Cortex_Category * Caudate_Putamen	Prefrontal	Caudate	Putamen	275.0	p < .001	p < .001	W = 275.0, p < .001	W = 275.0, q < .001
+Cortex_Category * Caudate_Putamen	Visual	Caudate	Putamen	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001

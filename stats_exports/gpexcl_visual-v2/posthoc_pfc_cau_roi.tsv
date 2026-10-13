@@ -1,0 +1,86 @@
+Contrast	Caudate_Putamen	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Caudate_Putamen	-	Caudate	Putamen	275.0	p < .001	n/a	W = 275.0, p < .001	W = 275.0
+Cortex_ROI	-	ACC	FMC	1147.0	p < .001	p < .001	W = 1147.0, p < .001	W = 1147.0, q < .001
+Cortex_ROI	-	ACC	FP	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	ACC	ParsOp	45.0	p < .001	p < .001	W = 45.0, p < .001	W = 45.0, q < .001
+Cortex_ROI	-	ACC	ParsTri	224.0	p < .001	p < .001	W = 224.0, p < .001	W = 224.0, q < .001
+Cortex_ROI	-	ACC	MFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	ACC	OFC	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	ACC	SFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	FMC	FP	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	FMC	ParsOp	36.0	p < .001	p < .001	W = 36.0, p < .001	W = 36.0, q < .001
+Cortex_ROI	-	FMC	ParsTri	135.0	p < .001	p < .001	W = 135.0, p < .001	W = 135.0, q < .001
+Cortex_ROI	-	FMC	MFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	FMC	OFC	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	FMC	SFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	FP	ParsOp	15.0	p < .001	p < .001	W = 15.0, p < .001	W = 15.0, q < .001
+Cortex_ROI	-	FP	ParsTri	3.0	p < .001	p < .001	W = 3.0, p < .001	W = 3.0, q < .001
+Cortex_ROI	-	FP	MFG	165.0	p < .001	p < .001	W = 165.0, p < .001	W = 165.0, q < .001
+Cortex_ROI	-	FP	OFC	27.0	p < .001	p < .001	W = 27.0, p < .001	W = 27.0, q < .001
+Cortex_ROI	-	FP	SFG	498.0	p < .001	p < .001	W = 498.0, p < .001	W = 498.0, q < .001
+Cortex_ROI	-	ParsOp	ParsTri	845.0	p < .001	p < .001	W = 845.0, p < .001	W = 845.0, q < .001
+Cortex_ROI	-	ParsOp	MFG	271.0	p < .001	p < .001	W = 271.0, p < .001	W = 271.0, q < .001
+Cortex_ROI	-	ParsOp	OFC	722.0	p < .001	p < .001	W = 722.0, p < .001	W = 722.0, q < .001
+Cortex_ROI	-	ParsOp	SFG	44.0	p < .001	p < .001	W = 44.0, p < .001	W = 44.0, q < .001
+Cortex_ROI	-	ParsTri	MFG	45.0	p < .001	p < .001	W = 45.0, p < .001	W = 45.0, q < .001
+Cortex_ROI	-	ParsTri	OFC	221.0	p < .001	p < .001	W = 221.0, p < .001	W = 221.0, q < .001
+Cortex_ROI	-	ParsTri	SFG	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Cortex_ROI	-	MFG	OFC	782.0	p < .001	p < .001	W = 782.0, p < .001	W = 782.0, q < .001
+Cortex_ROI	-	MFG	SFG	611.0	p < .001	p < .001	W = 611.0, p < .001	W = 611.0, q < .001
+Cortex_ROI	-	OFC	SFG	43.0	p < .001	p < .001	W = 43.0, p < .001	W = 43.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	ACC	FMC	168.0	p < .001	p < .001	W = 168.0, p < .001	W = 168.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	ACC	FP	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	ACC	ParsOp	253.0	p < .001	p < .001	W = 253.0, p < .001	W = 253.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	ACC	ParsTri	1170.0	p < .001	p < .001	W = 1170.0, p < .001	W = 1170.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	ACC	MFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	ACC	OFC	1322.0	p < .001	p < .001	W = 1322.0, p < .001	W = 1322.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	ACC	SFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	FMC	FP	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	FMC	ParsOp	32.0	p < .001	p < .001	W = 32.0, p < .001	W = 32.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	FMC	ParsTri	332.0	p < .001	p < .001	W = 332.0, p < .001	W = 332.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	FMC	MFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	FMC	OFC	832.0	p < .001	p < .001	W = 832.0, p < .001	W = 832.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	FMC	SFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	FP	ParsOp	48.0	p < .001	p < .001	W = 48.0, p < .001	W = 48.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	FP	ParsTri	4.0	p < .001	p < .001	W = 4.0, p < .001	W = 4.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	FP	MFG	656.0	p < .001	p < .001	W = 656.0, p < .001	W = 656.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	FP	OFC	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	FP	SFG	246.0	p < .001	p < .001	W = 246.0, p < .001	W = 246.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	ParsOp	ParsTri	344.0	p < .001	p < .001	W = 344.0, p < .001	W = 344.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	ParsOp	MFG	206.0	p < .001	p < .001	W = 206.0, p < .001	W = 206.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	ParsOp	OFC	33.0	p < .001	p < .001	W = 33.0, p < .001	W = 33.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	ParsOp	SFG	326.0	p < .001	p < .001	W = 326.0, p < .001	W = 326.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	ParsTri	MFG	2.0	p < .001	p < .001	W = 2.0, p < .001	W = 2.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	ParsTri	OFC	542.0	p < .001	p < .001	W = 542.0, p < .001	W = 542.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	ParsTri	SFG	13.0	p < .001	p < .001	W = 13.0, p < .001	W = 13.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	MFG	OFC	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	MFG	SFG	1203.0	p < .001	p < .001	W = 1203.0, p < .001	W = 1203.0, q < .001
+Caudate_Putamen * Cortex_ROI	Caudate	OFC	SFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	ACC	FMC	166.0	p < .001	p < .001	W = 166.0, p < .001	W = 166.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	ACC	FP	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	ACC	ParsOp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	ACC	ParsTri	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	ACC	MFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	ACC	OFC	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	ACC	SFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	FMC	FP	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	FMC	ParsOp	386.0	p < .001	p < .001	W = 386.0, p < .001	W = 386.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	FMC	ParsTri	232.0	p < .001	p < .001	W = 232.0, p < .001	W = 232.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	FMC	MFG	166.0	p < .001	p < .001	W = 166.0, p < .001	W = 166.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	FMC	OFC	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	FMC	SFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	FP	ParsOp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	FP	ParsTri	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	FP	MFG	4.0	p < .001	p < .001	W = 4.0, p < .001	W = 4.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	FP	OFC	854.0	p < .001	p < .001	W = 854.0, p < .001	W = 854.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	FP	SFG	1348.0	p < .001	p < .001	W = 1348.0, p < .001	W = 1348.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	ParsOp	ParsTri	773.0	p < .001	p < .001	W = 773.0, p < .001	W = 773.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	ParsOp	MFG	1329.0	p < .001	p < .001	W = 1329.0, p < .001	W = 1329.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	ParsOp	OFC	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	ParsOp	SFG	31.0	p < .001	p < .001	W = 31.0, p < .001	W = 31.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	ParsTri	MFG	2237.0	p = .617	p = .617	W = 2237.0, p = .617	W = 2237.0, q = .617
+Caudate_Putamen * Cortex_ROI	Putamen	ParsTri	OFC	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	ParsTri	SFG	5.0	p < .001	p < .001	W = 5.0, p < .001	W = 5.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	MFG	OFC	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	MFG	SFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Cortex_ROI	Putamen	OFC	SFG	1463.0	p = .001	p = .001	W = 1463.0, p = .001	W = 1463.0, q = .001

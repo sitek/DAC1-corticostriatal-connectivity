@@ -1,0 +1,4 @@
+source	F	df_num	df_den	p	p_gg	np2	eps	stat_str
+Hierarchy	498.54	3	288	p < .001	p < .001	0.839	0.743	F(2.23, 213.98) = 498.54, p < .001 (GG ε=0.74), ηp² = .84
+Caudate_Putamen	2412.76	1	96	p < .001	p < .001	0.962	1.000	F(1, 96) = 2412.76, p < .001, ηp² = .96
+Hierarchy * Caudate_Putamen	99.54	3	288	p < .001	p < .001	0.509	0.769	F(2.31, 221.53) = 99.54, p < .001 (GG ε=0.77), ηp² = .51

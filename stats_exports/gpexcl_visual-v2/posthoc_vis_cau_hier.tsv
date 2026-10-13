@@ -1,0 +1,20 @@
+Contrast	Caudate_Putamen	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Caudate_Putamen	-	Caudate	Putamen	0.0	p < .001	n/a	W = 0.0, p < .001	W = 0.0
+Hierarchy	-	Extrastriate	LatOccTemp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Hierarchy	-	Extrastriate	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Hierarchy	-	Extrastriate	Ventral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Hierarchy	-	LatOccTemp	Primary	47.0	p < .001	p < .001	W = 47.0, p < .001	W = 47.0, q < .001
+Hierarchy	-	LatOccTemp	Ventral	350.0	p < .001	p < .001	W = 350.0, p < .001	W = 350.0, q < .001
+Hierarchy	-	Primary	Ventral	276.0	p < .001	p < .001	W = 276.0, p < .001	W = 276.0, q < .001
+Caudate_Putamen * Hierarchy	Caudate	Extrastriate	LatOccTemp	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Caudate_Putamen * Hierarchy	Caudate	Extrastriate	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Hierarchy	Caudate	Extrastriate	Ventral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Hierarchy	Caudate	LatOccTemp	Primary	1351.0	p < .001	p < .001	W = 1351.0, p < .001	W = 1351.0, q < .001
+Caudate_Putamen * Hierarchy	Caudate	LatOccTemp	Ventral	674.0	p < .001	p < .001	W = 674.0, p < .001	W = 674.0, q < .001
+Caudate_Putamen * Hierarchy	Caudate	Primary	Ventral	1001.0	p < .001	p < .001	W = 1001.0, p < .001	W = 1001.0, q < .001
+Caudate_Putamen * Hierarchy	Putamen	Extrastriate	LatOccTemp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Hierarchy	Putamen	Extrastriate	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Hierarchy	Putamen	Extrastriate	Ventral	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Caudate_Putamen * Hierarchy	Putamen	LatOccTemp	Primary	15.0	p < .001	p < .001	W = 15.0, p < .001	W = 15.0, q < .001
+Caudate_Putamen * Hierarchy	Putamen	LatOccTemp	Ventral	194.0	p < .001	p < .001	W = 194.0, p < .001	W = 194.0, q < .001
+Caudate_Putamen * Hierarchy	Putamen	Primary	Ventral	288.0	p < .001	p < .001	W = 288.0, p < .001	W = 288.0, q < .001

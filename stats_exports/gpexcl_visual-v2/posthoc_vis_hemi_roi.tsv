@@ -1,0 +1,167 @@
+Contrast	hemisphere	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+hemisphere	-	Left	Right	729.0	p < .001	n/a	W = 729.0, p < .001	W = 729.0
+Cortex_ROI	-	Cuneal	ITGto	294.0	p < .001	p < .001	W = 294.0, p < .001	W = 294.0, q < .001
+Cortex_ROI	-	Cuneal	IntraCalc	1467.0	p = .001	p = .001	W = 1467.0, p = .001	W = 1467.0, q = .001
+Cortex_ROI	-	Cuneal	LOCinf	1860.0	p = .063	p = .065	W = 1860.0, p = .063	W = 1860.0, q = .065
+Cortex_ROI	-	Cuneal	LOCsup	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	Cuneal	Lingual	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	Cuneal	MTGto	2208.0	p = .546	p = .546	W = 2208.0, p = .546	W = 2208.0, q = .546
+Cortex_ROI	-	Cuneal	OccFus	16.0	p < .001	p < .001	W = 16.0, p < .001	W = 16.0, q < .001
+Cortex_ROI	-	Cuneal	OccPole	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Cortex_ROI	-	Cuneal	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	Cuneal	TempOccFus	33.0	p < .001	p < .001	W = 33.0, p < .001	W = 33.0, q < .001
+Cortex_ROI	-	ITGto	IntraCalc	633.0	p < .001	p < .001	W = 633.0, p < .001	W = 633.0, q < .001
+Cortex_ROI	-	ITGto	LOCinf	61.0	p < .001	p < .001	W = 61.0, p < .001	W = 61.0, q < .001
+Cortex_ROI	-	ITGto	LOCsup	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	ITGto	Lingual	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Cortex_ROI	-	ITGto	MTGto	89.0	p < .001	p < .001	W = 89.0, p < .001	W = 89.0, q < .001
+Cortex_ROI	-	ITGto	OccFus	6.0	p < .001	p < .001	W = 6.0, p < .001	W = 6.0, q < .001
+Cortex_ROI	-	ITGto	OccPole	2.0	p < .001	p < .001	W = 2.0, p < .001	W = 2.0, q < .001
+Cortex_ROI	-	ITGto	SupraCalc	59.0	p < .001	p < .001	W = 59.0, p < .001	W = 59.0, q < .001
+Cortex_ROI	-	ITGto	TempOccFus	1562.0	p = .003	p = .004	W = 1562.0, p = .003	W = 1562.0, q = .004
+Cortex_ROI	-	IntraCalc	LOCinf	1255.0	p < .001	p < .001	W = 1255.0, p < .001	W = 1255.0, q < .001
+Cortex_ROI	-	IntraCalc	LOCsup	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	IntraCalc	Lingual	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	IntraCalc	MTGto	1858.0	p = .062	p = .065	W = 1858.0, p = .062	W = 1858.0, q = .065
+Cortex_ROI	-	IntraCalc	OccFus	29.0	p < .001	p < .001	W = 29.0, p < .001	W = 29.0, q < .001
+Cortex_ROI	-	IntraCalc	OccPole	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	IntraCalc	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	IntraCalc	TempOccFus	113.0	p < .001	p < .001	W = 113.0, p < .001	W = 113.0, q < .001
+Cortex_ROI	-	LOCinf	LOCsup	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	LOCinf	Lingual	8.0	p < .001	p < .001	W = 8.0, p < .001	W = 8.0, q < .001
+Cortex_ROI	-	LOCinf	MTGto	1655.0	p = .009	p = .010	W = 1655.0, p = .009	W = 1655.0, q = .010
+Cortex_ROI	-	LOCinf	OccFus	17.0	p < .001	p < .001	W = 17.0, p < .001	W = 17.0, q < .001
+Cortex_ROI	-	LOCinf	OccPole	3.0	p < .001	p < .001	W = 3.0, p < .001	W = 3.0, q < .001
+Cortex_ROI	-	LOCinf	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	LOCinf	TempOccFus	19.0	p < .001	p < .001	W = 19.0, p < .001	W = 19.0, q < .001
+Cortex_ROI	-	LOCsup	Lingual	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	LOCsup	MTGto	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	LOCsup	OccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	LOCsup	OccPole	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Cortex_ROI	-	LOCsup	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	LOCsup	TempOccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	Lingual	MTGto	8.0	p < .001	p < .001	W = 8.0, p < .001	W = 8.0, q < .001
+Cortex_ROI	-	Lingual	OccFus	397.0	p < .001	p < .001	W = 397.0, p < .001	W = 397.0, q < .001
+Cortex_ROI	-	Lingual	OccPole	888.0	p < .001	p < .001	W = 888.0, p < .001	W = 888.0, q < .001
+Cortex_ROI	-	Lingual	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	Lingual	TempOccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	MTGto	OccFus	249.0	p < .001	p < .001	W = 249.0, p < .001	W = 249.0, q < .001
+Cortex_ROI	-	MTGto	OccPole	10.0	p < .001	p < .001	W = 10.0, p < .001	W = 10.0, q < .001
+Cortex_ROI	-	MTGto	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	MTGto	TempOccFus	39.0	p < .001	p < .001	W = 39.0, p < .001	W = 39.0, q < .001
+Cortex_ROI	-	OccFus	OccPole	63.0	p < .001	p < .001	W = 63.0, p < .001	W = 63.0, q < .001
+Cortex_ROI	-	OccFus	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	OccFus	TempOccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	OccPole	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	OccPole	TempOccFus	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Cortex_ROI	-	SupraCalc	TempOccFus	3.0	p < .001	p < .001	W = 3.0, p < .001	W = 3.0, q < .001
+hemisphere * Cortex_ROI	Left	Cuneal	ITGto	128.0	p < .001	p < .001	W = 128.0, p < .001	W = 128.0, q < .001
+hemisphere * Cortex_ROI	Left	Cuneal	IntraCalc	860.0	p < .001	p < .001	W = 860.0, p < .001	W = 860.0, q < .001
+hemisphere * Cortex_ROI	Left	Cuneal	LOCinf	1924.0	p = .104	p = .107	W = 1924.0, p = .104	W = 1924.0, q = .107
+hemisphere * Cortex_ROI	Left	Cuneal	LOCsup	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	Cuneal	Lingual	6.0	p < .001	p < .001	W = 6.0, p < .001	W = 6.0, q < .001
+hemisphere * Cortex_ROI	Left	Cuneal	MTGto	125.0	p < .001	p < .001	W = 125.0, p < .001	W = 125.0, q < .001
+hemisphere * Cortex_ROI	Left	Cuneal	OccFus	232.0	p < .001	p < .001	W = 232.0, p < .001	W = 232.0, q < .001
+hemisphere * Cortex_ROI	Left	Cuneal	OccPole	2.0	p < .001	p < .001	W = 2.0, p < .001	W = 2.0, q < .001
+hemisphere * Cortex_ROI	Left	Cuneal	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	Cuneal	TempOccFus	22.0	p < .001	p < .001	W = 22.0, p < .001	W = 22.0, q < .001
+hemisphere * Cortex_ROI	Left	ITGto	IntraCalc	568.0	p < .001	p < .001	W = 568.0, p < .001	W = 568.0, q < .001
+hemisphere * Cortex_ROI	Left	ITGto	LOCinf	196.0	p < .001	p < .001	W = 196.0, p < .001	W = 196.0, q < .001
+hemisphere * Cortex_ROI	Left	ITGto	LOCsup	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	ITGto	Lingual	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	ITGto	MTGto	1660.0	p = .010	p = .011	W = 1660.0, p = .010	W = 1660.0, q = .011
+hemisphere * Cortex_ROI	Left	ITGto	OccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	ITGto	OccPole	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+hemisphere * Cortex_ROI	Left	ITGto	SupraCalc	302.0	p < .001	p < .001	W = 302.0, p < .001	W = 302.0, q < .001
+hemisphere * Cortex_ROI	Left	ITGto	TempOccFus	1722.0	p = .019	p = .019	W = 1722.0, p = .019	W = 1722.0, q = .019
+hemisphere * Cortex_ROI	Left	IntraCalc	LOCinf	1788.0	p = .034	p = .036	W = 1788.0, p = .034	W = 1788.0, q = .036
+hemisphere * Cortex_ROI	Left	IntraCalc	LOCsup	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	IntraCalc	Lingual	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	IntraCalc	MTGto	287.0	p < .001	p < .001	W = 287.0, p < .001	W = 287.0, q < .001
+hemisphere * Cortex_ROI	Left	IntraCalc	OccFus	56.0	p < .001	p < .001	W = 56.0, p < .001	W = 56.0, q < .001
+hemisphere * Cortex_ROI	Left	IntraCalc	OccPole	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	IntraCalc	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	IntraCalc	TempOccFus	112.0	p < .001	p < .001	W = 112.0, p < .001	W = 112.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCinf	LOCsup	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCinf	Lingual	14.0	p < .001	p < .001	W = 14.0, p < .001	W = 14.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCinf	MTGto	110.0	p < .001	p < .001	W = 110.0, p < .001	W = 110.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCinf	OccFus	43.0	p < .001	p < .001	W = 43.0, p < .001	W = 43.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCinf	OccPole	9.0	p < .001	p < .001	W = 9.0, p < .001	W = 9.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCinf	SupraCalc	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCinf	TempOccFus	94.0	p < .001	p < .001	W = 94.0, p < .001	W = 94.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCsup	Lingual	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCsup	MTGto	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCsup	OccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCsup	OccPole	10.0	p < .001	p < .001	W = 10.0, p < .001	W = 10.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCsup	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	LOCsup	TempOccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	Lingual	MTGto	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	Lingual	OccFus	281.0	p < .001	p < .001	W = 281.0, p < .001	W = 281.0, q < .001
+hemisphere * Cortex_ROI	Left	Lingual	OccPole	1214.0	p < .001	p < .001	W = 1214.0, p < .001	W = 1214.0, q < .001
+hemisphere * Cortex_ROI	Left	Lingual	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	Lingual	TempOccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	MTGto	OccFus	3.0	p < .001	p < .001	W = 3.0, p < .001	W = 3.0, q < .001
+hemisphere * Cortex_ROI	Left	MTGto	OccPole	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	MTGto	SupraCalc	804.0	p < .001	p < .001	W = 804.0, p < .001	W = 804.0, q < .001
+hemisphere * Cortex_ROI	Left	MTGto	TempOccFus	1990.0	p = .165	p = .166	W = 1990.0, p = .165	W = 1990.0, q = .166
+hemisphere * Cortex_ROI	Left	OccFus	OccPole	70.0	p < .001	p < .001	W = 70.0, p < .001	W = 70.0, q < .001
+hemisphere * Cortex_ROI	Left	OccFus	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	OccFus	TempOccFus	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+hemisphere * Cortex_ROI	Left	OccPole	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	OccPole	TempOccFus	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+hemisphere * Cortex_ROI	Left	SupraCalc	TempOccFus	181.0	p < .001	p < .001	W = 181.0, p < .001	W = 181.0, q < .001
+hemisphere * Cortex_ROI	Right	Cuneal	ITGto	834.0	p < .001	p < .001	W = 834.0, p < .001	W = 834.0, q < .001
+hemisphere * Cortex_ROI	Right	Cuneal	IntraCalc	2318.0	p = .835	p = .835	W = 2318.0, p = .835	W = 2318.0, q = .835
+hemisphere * Cortex_ROI	Right	Cuneal	LOCinf	1138.0	p < .001	p < .001	W = 1138.0, p < .001	W = 1138.0, q < .001
+hemisphere * Cortex_ROI	Right	Cuneal	LOCsup	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	Cuneal	Lingual	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	Cuneal	MTGto	657.0	p < .001	p < .001	W = 657.0, p < .001	W = 657.0, q < .001
+hemisphere * Cortex_ROI	Right	Cuneal	OccFus	20.0	p < .001	p < .001	W = 20.0, p < .001	W = 20.0, q < .001
+hemisphere * Cortex_ROI	Right	Cuneal	OccPole	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+hemisphere * Cortex_ROI	Right	Cuneal	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	Cuneal	TempOccFus	284.0	p < .001	p < .001	W = 284.0, p < .001	W = 284.0, q < .001
+hemisphere * Cortex_ROI	Right	ITGto	IntraCalc	881.0	p < .001	p < .001	W = 881.0, p < .001	W = 881.0, q < .001
+hemisphere * Cortex_ROI	Right	ITGto	LOCinf	206.0	p < .001	p < .001	W = 206.0, p < .001	W = 206.0, q < .001
+hemisphere * Cortex_ROI	Right	ITGto	LOCsup	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	ITGto	Lingual	2.0	p < .001	p < .001	W = 2.0, p < .001	W = 2.0, q < .001
+hemisphere * Cortex_ROI	Right	ITGto	MTGto	8.0	p < .001	p < .001	W = 8.0, p < .001	W = 8.0, q < .001
+hemisphere * Cortex_ROI	Right	ITGto	OccFus	25.0	p < .001	p < .001	W = 25.0, p < .001	W = 25.0, q < .001
+hemisphere * Cortex_ROI	Right	ITGto	OccPole	11.0	p < .001	p < .001	W = 11.0, p < .001	W = 11.0, q < .001
+hemisphere * Cortex_ROI	Right	ITGto	SupraCalc	90.0	p < .001	p < .001	W = 90.0, p < .001	W = 90.0, q < .001
+hemisphere * Cortex_ROI	Right	ITGto	TempOccFus	1986.0	p = .161	p = .163	W = 1986.0, p = .161	W = 1986.0, q = .163
+hemisphere * Cortex_ROI	Right	IntraCalc	LOCinf	1176.0	p < .001	p < .001	W = 1176.0, p < .001	W = 1176.0, q < .001
+hemisphere * Cortex_ROI	Right	IntraCalc	LOCsup	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	IntraCalc	Lingual	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	IntraCalc	MTGto	728.0	p < .001	p < .001	W = 728.0, p < .001	W = 728.0, q < .001
+hemisphere * Cortex_ROI	Right	IntraCalc	OccFus	64.0	p < .001	p < .001	W = 64.0, p < .001	W = 64.0, q < .001
+hemisphere * Cortex_ROI	Right	IntraCalc	OccPole	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	IntraCalc	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	IntraCalc	TempOccFus	202.0	p < .001	p < .001	W = 202.0, p < .001	W = 202.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCinf	LOCsup	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCinf	Lingual	37.0	p < .001	p < .001	W = 37.0, p < .001	W = 37.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCinf	MTGto	1531.0	p = .002	p = .003	W = 1531.0, p = .002	W = 1531.0, q = .003
+hemisphere * Cortex_ROI	Right	LOCinf	OccFus	83.0	p < .001	p < .001	W = 83.0, p < .001	W = 83.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCinf	OccPole	5.0	p < .001	p < .001	W = 5.0, p < .001	W = 5.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCinf	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCinf	TempOccFus	31.0	p < .001	p < .001	W = 31.0, p < .001	W = 31.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCsup	Lingual	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCsup	MTGto	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCsup	OccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCsup	OccPole	5.0	p < .001	p < .001	W = 5.0, p < .001	W = 5.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCsup	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	LOCsup	TempOccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	Lingual	MTGto	356.0	p < .001	p < .001	W = 356.0, p < .001	W = 356.0, q < .001
+hemisphere * Cortex_ROI	Right	Lingual	OccFus	1026.0	p < .001	p < .001	W = 1026.0, p < .001	W = 1026.0, q < .001
+hemisphere * Cortex_ROI	Right	Lingual	OccPole	1107.0	p < .001	p < .001	W = 1107.0, p < .001	W = 1107.0, q < .001
+hemisphere * Cortex_ROI	Right	Lingual	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	Lingual	TempOccFus	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	MTGto	OccFus	893.0	p < .001	p < .001	W = 893.0, p < .001	W = 893.0, q < .001
+hemisphere * Cortex_ROI	Right	MTGto	OccPole	188.0	p < .001	p < .001	W = 188.0, p < .001	W = 188.0, q < .001
+hemisphere * Cortex_ROI	Right	MTGto	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	MTGto	TempOccFus	9.0	p < .001	p < .001	W = 9.0, p < .001	W = 9.0, q < .001
+hemisphere * Cortex_ROI	Right	OccFus	OccPole	350.0	p < .001	p < .001	W = 350.0, p < .001	W = 350.0, q < .001
+hemisphere * Cortex_ROI	Right	OccFus	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	OccFus	TempOccFus	2.0	p < .001	p < .001	W = 2.0, p < .001	W = 2.0, q < .001
+hemisphere * Cortex_ROI	Right	OccPole	SupraCalc	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	OccPole	TempOccFus	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+hemisphere * Cortex_ROI	Right	SupraCalc	TempOccFus	13.0	p < .001	p < .001	W = 13.0, p < .001	W = 13.0, q < .001

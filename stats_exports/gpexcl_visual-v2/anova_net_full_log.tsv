@@ -1,0 +1,16 @@
+source	F	df_num	df_den	p	p_gg	np2	eps	stat_str
+Caudate_Putamen	1764.87	1.0	96.0	p < .001				F(1, 96) = 1764.87, p < .001
+Rostral_Caudal	2551.04	1.0	96.0	p < .001				F(1, 96) = 2551.04, p < .001
+Cortex_Category	1102.18	3.0	288.0	p < .001				F(3, 288) = 1102.18, p < .001
+hemisphere	2.43	1.0	96.0	p = .122				F(1, 96) = 2.43, p = .122
+Caudate_Putamen:Rostral_Caudal	13.49	1.0	96.0	p < .001				F(1, 96) = 13.49, p < .001
+Caudate_Putamen:Cortex_Category	1663.35	3.0	288.0	p < .001				F(3, 288) = 1663.35, p < .001
+Rostral_Caudal:Cortex_Category	1424.55	3.0	288.0	p < .001				F(3, 288) = 1424.55, p < .001
+Caudate_Putamen:hemisphere	7.24	1.0	96.0	p = .008				F(1, 96) = 7.24, p = .008
+Rostral_Caudal:hemisphere	20.79	1.0	96.0	p < .001				F(1, 96) = 20.79, p < .001
+Cortex_Category:hemisphere	100.83	3.0	288.0	p < .001				F(3, 288) = 100.83, p < .001
+Caudate_Putamen:Rostral_Caudal:Cortex_Category	108.95	3.0	288.0	p < .001				F(3, 288) = 108.95, p < .001
+Caudate_Putamen:Rostral_Caudal:hemisphere	0.58	1.0	96.0	p = .449				F(1, 96) = 0.58, p = .449
+Caudate_Putamen:Cortex_Category:hemisphere	9.90	3.0	288.0	p < .001				F(3, 288) = 9.90, p < .001
+Rostral_Caudal:Cortex_Category:hemisphere	22.98	3.0	288.0	p < .001				F(3, 288) = 22.98, p < .001
+Caudate_Putamen:Rostral_Caudal:Cortex_Category:hemisphere	3.35	3.0	288.0	p = .019				F(3, 288) = 3.35, p = .019

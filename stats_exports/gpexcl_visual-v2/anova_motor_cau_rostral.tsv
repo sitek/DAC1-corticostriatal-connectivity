@@ -1,0 +1,4 @@
+source	F	df_num	df_den	p	p_gg	np2	eps	stat_str
+Caudate_Putamen	731.20	1	96	p < .001	p < .001	0.884	1.000	F(1, 96) = 731.20, p < .001, ηp² = .88
+Rostral_Caudal	2373.71	1	96	p < .001	p < .001	0.961	1.000	F(1, 96) = 2373.71, p < .001, ηp² = .96
+Caudate_Putamen * Rostral_Caudal	550.70	1	96	p < .001	p < .001	0.852	1.000	F(1, 96) = 550.70, p < .001, ηp² = .85

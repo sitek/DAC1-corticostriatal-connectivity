@@ -1,0 +1,9 @@
+Cortex_Category	Caudate_Putamen	mean	median	sd	n
+Auditory	Caudate	0.299275	0.239886	0.231066	97
+Auditory	Putamen	4.31477	4.15479	1.03188	97
+Motor	Caudate	6.15217	5.56276	3.1244	97
+Motor	Putamen	16.897	16.7111	2.72072	97
+Prefrontal	Caudate	10.7457	10.8199	3.96538	97
+Prefrontal	Putamen	6.97815	6.96052	1.6103	97
+Visual	Caudate	0.235603	0.20632	0.108108	97
+Visual	Putamen	2.89551	2.90388	0.52473	97

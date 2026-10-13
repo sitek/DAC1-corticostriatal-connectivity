@@ -1,0 +1,8 @@
+Contrast	Cortex_ROI	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Cortex_ROI	-	PostCG	PreCG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	PostCG	SMA	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Cortex_ROI	-	PreCG	SMA	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere	-	Left	Right	606.0	p < .001	n/a	W = 606.0, p < .001	W = 606.0
+Cortex_ROI * hemisphere	PostCG	Left	Right	224.0	p < .001	p < .001	W = 224.0, p < .001	W = 224.0, q < .001
+Cortex_ROI * hemisphere	PreCG	Left	Right	994.0	p < .001	p < .001	W = 994.0, p < .001	W = 994.0, q < .001
+Cortex_ROI * hemisphere	SMA	Left	Right	1326.0	p < .001	p < .001	W = 1326.0, p < .001	W = 1326.0, q < .001

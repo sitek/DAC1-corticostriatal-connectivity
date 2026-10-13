@@ -1,0 +1,4 @@
+source	F	df_num	df_den	p	p_gg	np2	eps	stat_str
+Hierarchy	498.54	3	288	p < .001	p < .001	0.839	0.743	F(2.23, 213.98) = 498.54, p < .001 (GG ε=0.74), ηp² = .84
+Rostral_Caudal	850.16	1	96	p < .001	p < .001	0.899	1.000	F(1, 96) = 850.16, p < .001, ηp² = .90
+Hierarchy * Rostral_Caudal	380.65	3	288	p < .001	p < .001	0.799	0.789	F(2.37, 227.15) = 380.65, p < .001 (GG ε=0.79), ηp² = .80

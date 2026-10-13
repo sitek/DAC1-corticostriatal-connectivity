@@ -1,0 +1,9 @@
+Cortex_Category	Rostral_Caudal	mean	median	sd	n
+Auditory	Caudal	3.65356	3.61223	0.980836	97
+Auditory	Rostral	0.960485	0.934678	0.273868	97
+Motor	Caudal	21.6277	21.2049	4.1994	97
+Motor	Rostral	1.42143	1.37575	0.462311	97
+Prefrontal	Caudal	8.87031	8.61407	2.68972	97
+Prefrontal	Rostral	8.85359	8.54258	2.76107	97
+Visual	Caudal	2.48711	2.48032	0.464664	97
+Visual	Rostral	0.643996	0.651269	0.228623	97

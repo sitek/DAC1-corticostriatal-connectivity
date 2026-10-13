@@ -1,0 +1,4 @@
+source	F	df_num	df_den	p	p_gg	np2	eps	stat_str
+Cortex_ROI	579.66	4	384	p < .001	p < .001	0.858	0.590	F(2.36, 226.57) = 579.66, p < .001 (GG ε=0.59), ηp² = .86
+Caudate_Putamen	1164.75	1	96	p < .001	p < .001	0.924	1.000	F(1, 96) = 1164.75, p < .001, ηp² = .92
+Cortex_ROI * Caudate_Putamen	521.61	4	384	p < .001	p < .001	0.845	0.576	F(2.30, 221.20) = 521.61, p < .001 (GG ε=0.58), ηp² = .84

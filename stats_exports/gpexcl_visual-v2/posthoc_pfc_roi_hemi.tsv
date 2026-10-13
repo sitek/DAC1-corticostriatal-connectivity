@@ -1,0 +1,38 @@
+Contrast	Cortex_ROI	A	B	W	p	p_fdr	stat_str	stat_str_fdr
+Cortex_ROI	-	ACC	FMC	1147.0	p < .001	p < .001	W = 1147.0, p < .001	W = 1147.0, q < .001
+Cortex_ROI	-	ACC	FP	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	ACC	IFGo	45.0	p < .001	p < .001	W = 45.0, p < .001	W = 45.0, q < .001
+Cortex_ROI	-	ACC	IFGt	224.0	p < .001	p < .001	W = 224.0, p < .001	W = 224.0, q < .001
+Cortex_ROI	-	ACC	MFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	ACC	OFC	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	ACC	SFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	FMC	FP	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	FMC	IFGo	36.0	p < .001	p < .001	W = 36.0, p < .001	W = 36.0, q < .001
+Cortex_ROI	-	FMC	IFGt	135.0	p < .001	p < .001	W = 135.0, p < .001	W = 135.0, q < .001
+Cortex_ROI	-	FMC	MFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	FMC	OFC	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	FMC	SFG	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	FP	IFGo	15.0	p < .001	p < .001	W = 15.0, p < .001	W = 15.0, q < .001
+Cortex_ROI	-	FP	IFGt	3.0	p < .001	p < .001	W = 3.0, p < .001	W = 3.0, q < .001
+Cortex_ROI	-	FP	MFG	165.0	p < .001	p < .001	W = 165.0, p < .001	W = 165.0, q < .001
+Cortex_ROI	-	FP	OFC	27.0	p < .001	p < .001	W = 27.0, p < .001	W = 27.0, q < .001
+Cortex_ROI	-	FP	SFG	498.0	p < .001	p < .001	W = 498.0, p < .001	W = 498.0, q < .001
+Cortex_ROI	-	IFGo	IFGt	845.0	p < .001	p < .001	W = 845.0, p < .001	W = 845.0, q < .001
+Cortex_ROI	-	IFGo	MFG	271.0	p < .001	p < .001	W = 271.0, p < .001	W = 271.0, q < .001
+Cortex_ROI	-	IFGo	OFC	722.0	p < .001	p < .001	W = 722.0, p < .001	W = 722.0, q < .001
+Cortex_ROI	-	IFGo	SFG	44.0	p < .001	p < .001	W = 44.0, p < .001	W = 44.0, q < .001
+Cortex_ROI	-	IFGt	MFG	45.0	p < .001	p < .001	W = 45.0, p < .001	W = 45.0, q < .001
+Cortex_ROI	-	IFGt	OFC	221.0	p < .001	p < .001	W = 221.0, p < .001	W = 221.0, q < .001
+Cortex_ROI	-	IFGt	SFG	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Cortex_ROI	-	MFG	OFC	782.0	p < .001	p < .001	W = 782.0, p < .001	W = 782.0, q < .001
+Cortex_ROI	-	MFG	SFG	611.0	p < .001	p < .001	W = 611.0, p < .001	W = 611.0, q < .001
+Cortex_ROI	-	OFC	SFG	43.0	p < .001	p < .001	W = 43.0, p < .001	W = 43.0, q < .001
+hemisphere	-	Left	Right	417.0	p < .001	n/a	W = 417.0, p < .001	W = 417.0
+Cortex_ROI * hemisphere	ACC	Left	Right	885.0	p < .001	p < .001	W = 885.0, p < .001	W = 885.0, q < .001
+Cortex_ROI * hemisphere	FMC	Left	Right	77.0	p < .001	p < .001	W = 77.0, p < .001	W = 77.0, q < .001
+Cortex_ROI * hemisphere	FP	Left	Right	827.0	p < .001	p < .001	W = 827.0, p < .001	W = 827.0, q < .001
+Cortex_ROI * hemisphere	IFGo	Left	Right	1307.0	p < .001	p < .001	W = 1307.0, p < .001	W = 1307.0, q < .001
+Cortex_ROI * hemisphere	IFGt	Left	Right	1094.0	p < .001	p < .001	W = 1094.0, p < .001	W = 1094.0, q < .001
+Cortex_ROI * hemisphere	MFG	Left	Right	1999.0	p = .175	p = .175	W = 1999.0, p = .175	W = 1999.0, q = .175
+Cortex_ROI * hemisphere	OFC	Left	Right	19.0	p < .001	p < .001	W = 19.0, p < .001	W = 19.0, q < .001
+Cortex_ROI * hemisphere	SFG	Left	Right	1050.0	p < .001	p < .001	W = 1050.0, p < .001	W = 1050.0, q < .001
