@@ -1,32 +1,65 @@
 Contrast	hemisphere	A	B	W	p	p_fdr	stat_str	stat_str_fdr
-hemisphere	-	Left	Right	1764.0	p = .028	n/a	W = 1764.0, p = .028	W = 1764.0
+hemisphere	-	Left	Right	1967.0	p = .141	n/a	W = 1967.0, p = .141	W = 1967.0
+Cortex_ROI	-	HG	MTGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 Cortex_ROI	-	HG	PP	1346.0	p < .001	p < .001	W = 1346.0, p < .001	W = 1346.0, q < .001
 Cortex_ROI	-	HG	PT	3.0	p < .001	p < .001	W = 3.0, p < .001	W = 3.0, q < .001
 Cortex_ROI	-	HG	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 Cortex_ROI	-	HG	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	HG	TempPole	1302.0	p < .001	p < .001	W = 1302.0, p < .001	W = 1302.0, q < .001
+Cortex_ROI	-	MTGp	PP	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	MTGp	PT	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	MTGp	STGa	75.0	p < .001	p < .001	W = 75.0, p < .001	W = 75.0, q < .001
+Cortex_ROI	-	MTGp	STGp	2207.0	p = .543	p = .543	W = 2207.0, p = .543	W = 2207.0, q = .543
+Cortex_ROI	-	MTGp	TempPole	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 Cortex_ROI	-	PP	PT	4.0	p < .001	p < .001	W = 4.0, p < .001	W = 4.0, q < .001
 Cortex_ROI	-	PP	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 Cortex_ROI	-	PP	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	PP	TempPole	1770.0	p = .029	p = .031	W = 1770.0, p = .029	W = 1770.0, q = .031
 Cortex_ROI	-	PT	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 Cortex_ROI	-	PT	STGp	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Cortex_ROI	-	PT	TempPole	183.0	p < .001	p < .001	W = 183.0, p < .001	W = 183.0, q < .001
 Cortex_ROI	-	STGa	STGp	17.0	p < .001	p < .001	W = 17.0, p < .001	W = 17.0, q < .001
+Cortex_ROI	-	STGa	TempPole	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Cortex_ROI	-	STGp	TempPole	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	HG	MTGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 hemisphere * Cortex_ROI	Left	HG	PP	780.0	p < .001	p < .001	W = 780.0, p < .001	W = 780.0, q < .001
 hemisphere * Cortex_ROI	Left	HG	PT	15.0	p < .001	p < .001	W = 15.0, p < .001	W = 15.0, q < .001
 hemisphere * Cortex_ROI	Left	HG	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 hemisphere * Cortex_ROI	Left	HG	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	HG	TempPole	654.0	p < .001	p < .001	W = 654.0, p < .001	W = 654.0, q < .001
+hemisphere * Cortex_ROI	Left	MTGp	PP	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	MTGp	PT	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	MTGp	STGa	1149.0	p < .001	p < .001	W = 1149.0, p < .001	W = 1149.0, q < .001
+hemisphere * Cortex_ROI	Left	MTGp	STGp	1188.0	p < .001	p < .001	W = 1188.0, p < .001	W = 1188.0, q < .001
+hemisphere * Cortex_ROI	Left	MTGp	TempPole	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 hemisphere * Cortex_ROI	Left	PP	PT	2.0	p < .001	p < .001	W = 2.0, p < .001	W = 2.0, q < .001
 hemisphere * Cortex_ROI	Left	PP	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 hemisphere * Cortex_ROI	Left	PP	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	PP	TempPole	1428.0	p < .001	p < .001	W = 1428.0, p < .001	W = 1428.0, q < .001
 hemisphere * Cortex_ROI	Left	PT	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 hemisphere * Cortex_ROI	Left	PT	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
-hemisphere * Cortex_ROI	Left	STGa	STGp	2035.0	p = .220	p = .231	W = 2035.0, p = .220	W = 2035.0, q = .231
-hemisphere * Cortex_ROI	Right	HG	PP	2076.0	p = .280	p = .280	W = 2076.0, p = .280	W = 2076.0, q = .280
+hemisphere * Cortex_ROI	Left	PT	TempPole	42.0	p < .001	p < .001	W = 42.0, p < .001	W = 42.0, q < .001
+hemisphere * Cortex_ROI	Left	STGa	STGp	2035.0	p = .220	p = .237	W = 2035.0, p = .220	W = 2035.0, q = .237
+hemisphere * Cortex_ROI	Left	STGa	TempPole	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Left	STGp	TempPole	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	HG	MTGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	HG	PP	2076.0	p = .280	p = .294	W = 2076.0, p = .280	W = 2076.0, q = .294
 hemisphere * Cortex_ROI	Right	HG	PT	210.0	p < .001	p < .001	W = 210.0, p < .001	W = 210.0, q < .001
 hemisphere * Cortex_ROI	Right	HG	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 hemisphere * Cortex_ROI	Right	HG	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	HG	TempPole	2164.0	p = .446	p = .456	W = 2164.0, p = .446	W = 2164.0, q = .456
+hemisphere * Cortex_ROI	Right	MTGp	PP	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	MTGp	PT	3.0	p < .001	p < .001	W = 3.0, p < .001	W = 3.0, q < .001
+hemisphere * Cortex_ROI	Right	MTGp	STGa	14.0	p < .001	p < .001	W = 14.0, p < .001	W = 14.0, q < .001
+hemisphere * Cortex_ROI	Right	MTGp	STGp	1732.0	p = .020	p = .023	W = 1732.0, p = .020	W = 1732.0, q = .023
+hemisphere * Cortex_ROI	Right	MTGp	TempPole	3.0	p < .001	p < .001	W = 3.0, p < .001	W = 3.0, q < .001
 hemisphere * Cortex_ROI	Right	PP	PT	713.0	p < .001	p < .001	W = 713.0, p < .001	W = 713.0, q < .001
 hemisphere * Cortex_ROI	Right	PP	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 hemisphere * Cortex_ROI	Right	PP	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	PP	TempPole	2265.0	p = .690	p = .690	W = 2265.0, p = .690	W = 2265.0, q = .690
 hemisphere * Cortex_ROI	Right	PT	STGa	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 hemisphere * Cortex_ROI	Right	PT	STGp	7.0	p < .001	p < .001	W = 7.0, p < .001	W = 7.0, q < .001
+hemisphere * Cortex_ROI	Right	PT	TempPole	1280.0	p < .001	p < .001	W = 1280.0, p < .001	W = 1280.0, q < .001
 hemisphere * Cortex_ROI	Right	STGa	STGp	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	STGa	TempPole	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+hemisphere * Cortex_ROI	Right	STGp	TempPole	13.0	p < .001	p < .001	W = 13.0, p < .001	W = 13.0, q < .001

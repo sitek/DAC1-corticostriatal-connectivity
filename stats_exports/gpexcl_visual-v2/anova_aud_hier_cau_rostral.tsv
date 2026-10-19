@@ -1,8 +1,8 @@
 source	F	df_num	df_den	p	p_gg	np2	eps	stat_str
-Hierarchy	698.24	2.0	192.0	p < .001				F(2, 192) = 698.24, p < .001
-Caudate_Putamen	1154.18	1.0	96.0	p < .001				F(1, 96) = 1154.18, p < .001
-Rostral_Caudal	1043.23	1.0	96.0	p < .001				F(1, 96) = 1043.23, p < .001
-Hierarchy:Caudate_Putamen	653.20	2.0	192.0	p < .001				F(2, 192) = 653.20, p < .001
-Hierarchy:Rostral_Caudal	623.68	2.0	192.0	p < .001				F(2, 192) = 623.68, p < .001
-Caudate_Putamen:Rostral_Caudal	1006.57	1.0	96.0	p < .001				F(1, 96) = 1006.57, p < .001
-Hierarchy:Caudate_Putamen:Rostral_Caudal	635.29	2.0	192.0	p < .001				F(2, 192) = 635.29, p < .001
+Hierarchy	376.51	3.0	288.0	p < .001				F(3, 288) = 376.51, p < .001
+Caudate_Putamen	1477.23	1.0	96.0	p < .001				F(1, 96) = 1477.23, p < .001
+Rostral_Caudal	962.19	1.0	96.0	p < .001				F(1, 96) = 962.19, p < .001
+Hierarchy:Caudate_Putamen	403.48	3.0	288.0	p < .001				F(3, 288) = 403.48, p < .001
+Hierarchy:Rostral_Caudal	510.73	3.0	288.0	p < .001				F(3, 288) = 510.73, p < .001
+Caudate_Putamen:Rostral_Caudal	901.54	1.0	96.0	p < .001				F(1, 96) = 901.54, p < .001
+Hierarchy:Caudate_Putamen:Rostral_Caudal	575.13	3.0	288.0	p < .001				F(3, 288) = 575.13, p < .001

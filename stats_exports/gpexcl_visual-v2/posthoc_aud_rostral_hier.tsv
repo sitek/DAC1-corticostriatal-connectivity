@@ -1,11 +1,20 @@
 Contrast	Rostral_Caudal	A	B	W	p	p_fdr	stat_str	stat_str_fdr
 Rostral_Caudal	-	Caudal	Rostral	0.0	p < .001	n/a	W = 0.0, p < .001	W = 0.0
+Hierarchy	-	Association	Belt	1027.0	p < .001	p < .001	W = 1027.0, p < .001	W = 1027.0, q < .001
+Hierarchy	-	Association	Parabelt	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Hierarchy	-	Association	Primary	546.0	p < .001	p < .001	W = 546.0, p < .001	W = 546.0, q < .001
 Hierarchy	-	Belt	Parabelt	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 Hierarchy	-	Belt	Primary	881.0	p < .001	p < .001	W = 881.0, p < .001	W = 881.0, q < .001
 Hierarchy	-	Parabelt	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Rostral_Caudal * Hierarchy	Caudal	Association	Belt	125.0	p < .001	p < .001	W = 125.0, p < .001	W = 125.0, q < .001
+Rostral_Caudal * Hierarchy	Caudal	Association	Parabelt	1.0	p < .001	p < .001	W = 1.0, p < .001	W = 1.0, q < .001
+Rostral_Caudal * Hierarchy	Caudal	Association	Primary	23.0	p < .001	p < .001	W = 23.0, p < .001	W = 23.0, q < .001
 Rostral_Caudal * Hierarchy	Caudal	Belt	Parabelt	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 Rostral_Caudal * Hierarchy	Caudal	Belt	Primary	278.0	p < .001	p < .001	W = 278.0, p < .001	W = 278.0, q < .001
 Rostral_Caudal * Hierarchy	Caudal	Parabelt	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Rostral_Caudal * Hierarchy	Rostral	Association	Belt	513.0	p < .001	p < .001	W = 513.0, p < .001	W = 513.0, q < .001
+Rostral_Caudal * Hierarchy	Rostral	Association	Parabelt	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
+Rostral_Caudal * Hierarchy	Rostral	Association	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 Rostral_Caudal * Hierarchy	Rostral	Belt	Parabelt	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 Rostral_Caudal * Hierarchy	Rostral	Belt	Primary	0.0	p < .001	p < .001	W = 0.0, p < .001	W = 0.0, q < .001
 Rostral_Caudal * Hierarchy	Rostral	Parabelt	Primary	55.0	p < .001	p < .001	W = 55.0, p < .001	W = 55.0, q < .001
